@@ -4,7 +4,7 @@
 $blockquote-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: base,
+		size: fs--base,
 		name: 'blockquote',
 		type-style: text,
 	),
@@ -29,7 +29,7 @@ $blockquote-patterns: (
 		"--test": (
 			pattern-config: (
 				responsive-type: true,
-				size: large,
+				size: fs--base,
 				type-style: text,
 			),
 		),

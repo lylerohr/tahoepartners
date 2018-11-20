@@ -4,7 +4,7 @@
 $image-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: base,
+		size: fs--base,
 		name: 'image',
 		type-style: text,
 	),
@@ -29,7 +29,7 @@ $image-patterns: (
 		"--test": (
 			pattern-config: (
 				responsive-type: true,
-				size: large,
+				size: fs--base,
 				type-style: text,
 			),
 		),

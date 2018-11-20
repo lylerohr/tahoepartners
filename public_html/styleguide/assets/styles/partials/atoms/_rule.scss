@@ -1,3 +1,7 @@
 hr {
 	@extend %rule;
+
+	&--heading-rule {
+		@extend %rule--heading-rule;
+	}
 }

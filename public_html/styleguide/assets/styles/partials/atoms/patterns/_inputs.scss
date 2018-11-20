@@ -4,7 +4,7 @@
 $input-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: base,
+		size: fs--base,
 		name: 'input',
 		type-style: text,
 	),
@@ -33,7 +33,7 @@ $input-patterns: (
 		"--test": (
 			pattern-config: (
 				responsive-type: true,
-				size: large,
+				size: fs--base,
 				type-style: text,
 			),
 		),

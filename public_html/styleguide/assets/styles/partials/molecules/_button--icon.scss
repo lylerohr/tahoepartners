@@ -1,14 +1,14 @@
 .#{$pre}button--icon {
 
     &-right {
-        @extend %button--default;
+        @extend %button;
         .#{$pre}button__icon {
 
         }
     }
 
     &-left {
-        @extend %button--default;
+        @extend %button;
         .#{$pre}button__icon {
 
         }

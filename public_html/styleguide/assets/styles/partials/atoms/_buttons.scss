@@ -1,10 +1,20 @@
 button,
-.#{$pre}_button {
-	&--default {
-		@extend %button--default;
-	}
+.#{$pre}button {
+	@extend %button--default;
 
 	&--ghost {
 		@extend %button--ghost;
+	}
+
+	&--ghost-reverse {
+		@extend %button--ghost-reverse;
+	}
+
+	&--ghost-round {
+		@extend %button--ghost-round;
+	}
+
+	&--link {
+		@extend %button--link;
 	}
 }

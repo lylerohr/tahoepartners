@@ -1,3 +1,65 @@
 .#{$pre}card {
 
+    padding: layout(spacing--xl) 0;
+
+    .#{$pre}card__heading {
+
+    }
+
+    .#{$pre}card__rule {
+        display: none;
+    }
+
+    .#{$pre}card__copy {
+        margin-top: layout(spacing--md);
+    }
+
+    .#{$pre}card__button {
+        display: none;
+    }
+
+
+    &--rule {
+        .#{$pre}card__rule {
+            @extend %rule--heading-rule;
+            margin-top: layout(spacing--xl);
+            display: block;
+        }
+    }
+
+    &--button {
+        .#{$pre}card__button {
+            @extend %button--ghost-round;
+            display: block;
+        }
+    }
+
+    &--small {
+        .#{$pre}card__heading {
+            @extend %heading--large;
+            text-transform: uppercase;
+        }
+    }
+
+    &--reverse {
+        // COMBAK: REMOVE FOR PRODUCTION
+        background-color: color(gray);
+        padding: layout(spacing--xl) layout(spacing--sm);
+
+        .#{$pre}card__heading {
+            color: color(gray--extra-light);
+        }
+
+        .#{$pre}card__rule {
+            @extend %rule--heading-rule-reverse;
+        }
+
+        .#{$pre}card__copy {
+            color: color(gray--extra-light);
+        }
+
+        .#{$pre}card__button {
+            @extend %button--ghost-round-reverse;
+        }
+    }
 }

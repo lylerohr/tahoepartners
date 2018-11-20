@@ -5,7 +5,7 @@
 
 *******/
 
-$pre: "co_";
+$pre: "tp_";
 
 /************************************
 
@@ -56,15 +56,23 @@ font-family: 'Barlow Condensed', sans-serif;
 // unitless, DO NOT SET UNITS HERE
 // font-size($size);
 $font-sizes: (
-	monolithic: 2.3333,
-	massive: 1.6667,
-	extra-large: 1.3333,
-	large: 1.1111,
-	base: 1,
-	small: .8889,
-	extra-small: .75,
-	tiny: .7,
-	extra-tiny: .6,
+	fs--base: 1,
+	fs--0: 8,
+	fs--1: 5.75,
+	fs--2: 5.25,
+	fs--3: 4.25,
+	fs--4: 3.75,
+	fs--5: 3.375,
+	fs--6: 3,
+	fs--7: 2.625,
+	fs--8: 2.25,
+	fs--9: 2,
+	fs--10: 1.5,
+	fs--11: 1.25,
+	fs--12: 1.125,
+	fs--13: 1,
+	fs--14: .875,
+	fs--15: .75,
 );
 
 // MUST MATCH KEYS IN $breakpoints
@@ -86,7 +94,7 @@ $lh: (
 	tiny: 1.25,
 	extra-small: 1.3,
 	small: 1.35,
-	base: 1.4,
+	base: 1.5,
 	large: 1.45,
 	extra-large: 1.5
 );
@@ -127,6 +135,8 @@ $colors: (
 	gray: rgba(76,81,85,1),
 	gray--light: rgba(211,213,216,1),
 	gray--extra-light: rgba(242,243,243,1),
+	drop--active: rgba(37,40,42,.22),
+	drop--inactive: rgba(37,40,42,.15),
 );
 
 
@@ -200,6 +210,26 @@ $padding: (
 	extra-large: 2rem,
 );
 
+// layout() function
+$layout: (
+	spacing--3xs: .125rem,
+	spacing--2xs: .25rem,
+	spacing--xs: .5rem,
+	spacing--sm: .75rem,
+	spacing--md: 1rem,
+	spacing--lg: 1.5rem,
+	spacing--xl: 2rem,
+	spacing--2xl: 2.5rem,
+	spacing--3xl: 3rem,
+	layout-2xs: 1rem,
+	layout-xs: 2rem,
+	layout-sm: 4rem,
+	layout-md: 6rem,
+	layout-lg: 8rem,
+	layout-xl: 10rem,
+	layout-2xl: 12rem,
+);
+
 /************************************
 
 	DIMENSION
@@ -210,7 +240,7 @@ $padding: (
 $borders: (
 	none: none,
 	hairline: 1px solid,
-	thin: .1rem solid,
+	thin: 2px solid,
 	base: .1333rem solid,
 	thick: .2222rem solid,
 	extra-thick: .2778rem solid,
@@ -238,10 +268,10 @@ $transitions: (
 // shadow($height, <$color>);
 $drop-shadows: (
 	flat: none,
-	base: 0 0 0,
-	raised: 0 1px 2px 0,
-	drop-menu: 2px 3px 3px 0,
-	overlay: 0 4px 8px 0,
+	base: 0px 2px 12px 0px,
+	active: 0px 2px 12px 0px,
+	inactive: 0px 2px 12px 0px,
+	depressed: 0px 2px 6px 0px,
 	sticky-nav: 0 4px 14px 0,
 	modal: 2px 5px 12px 0,
 	temporary-nav: 	0 8px 16px 0,

@@ -4,7 +4,7 @@
 $rule-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: base,
+		size: fs--base,
 		name: 'rule',
 		type-style: text,
 	),
@@ -20,18 +20,31 @@ $rule-patterns: (
 	cursor: inherit,
 	background-image: none,
 	background-color: color(clear),
-	border: none,
+	border-color: color(seafoam--black),
+	border-bottom: 0px,
+	border-left: 0px,
+	border-right: 0px,
 	":hover": (),
 	":active": (),
 	"::before": (),
 	"::after": (),
 	modifiers: (
-		"--test": (
+		"--heading-rule": (
 			pattern-config: (
 				responsive-type: true,
-				size: large,
+				size: fs--base,
 				type-style: text,
 			),
+			width: 6.333rem,
+		),
+		"--heading-rule-reverse": (
+			pattern-config: (
+				responsive-type: true,
+				size: fs--base,
+				type-style: text,
+			),
+			width: 6.333rem,
+			border-color: color(gray--extra-light),
 		),
 	),
 );

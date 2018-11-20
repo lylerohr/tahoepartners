@@ -58,7 +58,7 @@
 	@include clearfix;
 
     .cd_menu-button {
-        font-size: 14px;
+        font-size: font-size(fs--14);
         padding-left: 8px;
         padding-right: 8px;
         position: fixed;
@@ -98,14 +98,13 @@
 		}
 
 		.cd_section--header {
-			height: 150px;
 			background-color: color(black);
 			position: relative;
+            padding: 3rem 0;
 
 			.cd_page-title {
-                @extend .cd_heading--2;
-				@include hv-center;
-				width: 90%;
+                @extend .cd_heading--3;
+				width: 100%;
 				text-align: center;
 				color: color(white);
 			}
@@ -124,11 +123,11 @@
 			margin: margin(large) 0;
 
 			.cd_component-group-title {
-				@extend .cd_heading--4;
+				font-size: rem(font-size(fs--10));
 				padding-left: 15px;
 				padding-top: padding(base);
 				padding-bottom: padding(base);
-				background-color: color(gray, 40, lighten);
+				background-color: color(gray--light);
 			}
 
 			.cd_component {
@@ -286,61 +285,65 @@
 					background-color: color(black);
 				}
 
-                &--gray {
-					background-color: color(gray);
+                &--white {
+					background-color: color(white);
 				}
 
-                &--gray-middle {
-					background-color: color(gray-middle);
+                &--seafoam--bright {
+					background-color: color(seafoam--bright);
 				}
 
-                &--gray-light {
-					background-color: color(gray-light);
+                &--seafoam--light {
+					background-color: color(seafoam--light);
 				}
 
-                &--gray-extra-light {
-					background-color: color(gray-extra-light);
+                &--seafoam {
+					background-color: color(seafoam);
 				}
 
-				&--blue-dark {
-					background-color: color(blue-dark);
+				&--seafoam--dark {
+					background-color: color(seafoam--dark);
 				}
 
-                &--blue-middle {
-					background-color: color(blue-middle);
+                &--seafoam--black {
+					background-color: color(seafoam--black);
 				}
 
-                &--blue-light {
-					background-color: color(blue-light);
+                &--mauve {
+					background-color: color(mauve);
 				}
 
                 &--red {
 					background-color: color(red);
 				}
 
-                &--orange {
-					background-color: color(orange);
+                &--blue--dark {
+					background-color: color(blue--dark);
 				}
 
-                &--orange-light {
-					background-color: color(orange-light);
+                &--blue {
+					background-color: color(blue);
 				}
 
-                &--yellow {
-					background-color: color(yellow);
+                &--blue--light {
+					background-color: color(blue--light);
 				}
 
-                &--green {
-					background-color: color(green);
+                &--gray {
+					background-color: color(gray);
 				}
 
-                &--green-light {
-					background-color: color(green-light);
+                &--gray--light {
+					background-color: color(gray--light);
+				}
+
+                &--gray--extra-light {
+					background-color: color(gray--extra-light);
 				}
 			}
 
 			&__title {
-				@extend .cd_heading--6;
+				@extend %heading--small;
 				margin: margin(extra-small) 0;
 				font-weight: 600;
 				letter-spacing: normal;
@@ -399,10 +402,25 @@
 			}
 
 
-			&--museo-sans {
+			&--barlow {
 
 				.cd_font__big-a {
-					font-family: font-family(text);
+					font-family: font-family(display) !important;
+				}
+
+				.cd_font__alphabet-lower {
+					font-family: font-family(display);
+				}
+
+				.cd_font__alphabet-upper {
+					font-family: font-family(display);
+				}
+			}
+
+            &--zilla {
+
+				.cd_font__big-a {
+					font-family: font-family(text) !important;
 				}
 
 				.cd_font__alphabet-lower {
@@ -434,7 +452,7 @@
     &__item {
         white-space: nowrap;
         margin-bottom: 1.5rem;
-        @include responsive-type(large, text);
+        @include responsive-type(fs--12, text);
     }
 }
 

@@ -101153,6 +101153,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/styleguide/assets/styles/partials/atoms/_color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/atoms/_color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/styleguide/assets/styles/partials/atoms/_headings.scss": {
 		"aP": 0,
 		"bl": 0,

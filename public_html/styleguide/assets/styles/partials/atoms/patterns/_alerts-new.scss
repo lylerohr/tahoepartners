@@ -4,7 +4,7 @@
 $alert-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: base,
+		size: fs--base,
 		name: 'alert',
 		type-style: text,
 	),
@@ -14,7 +14,7 @@ $alert-patterns: (
 		padding: 0,
 		white-space: normal,
 		font-family: font-family(text),
-		color: color(gray, extra-dark),
+		color: color(gray),
 		text-align: left,
 		vertical-align: inherit,
 		touch-action: auto,
@@ -31,7 +31,7 @@ $alert-patterns: (
 		"--test": (
 			pattern-config: (
 				responsive-type: true,
-				size: large,
+				size: fs--base,
 				type-style: text,
 			),
 		),

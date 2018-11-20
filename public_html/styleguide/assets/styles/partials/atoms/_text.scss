@@ -1,40 +1,68 @@
 .#{$pre}text {
 	@extend %text;
 
-	&--extra-tiny {
-		@extend %text--extra-tiny;
+	&--fs--15 {
+		font-size: rem(font-size(fs--15));
 	}
 
-	&--tiny {
-		@extend %text--tiny;
+	&--fs--14 {
+		font-size: rem(font-size(fs--14));
 	}
 
-	&--extra-small {
-		@extend %text--extra-small;
+	&--fs--13 {
+		font-size: rem(font-size(fs--13));
 	}
 
-	&--small{
-		@extend %text--small;
+	&--fs--12 {
+		font-size: rem(font-size(fs--12));
 	}
 
-	&--base {
-		@extend %text--base;
+	&--fs--11 {
+		font-size: rem(font-size(fs--11));
 	}
 
-	&--large {
-		@extend %text--large;
+	&--fs--10 {
+		font-size: rem(font-size(fs--10));
 	}
 
-	&--extra-large {
-		@extend %text--extra-large;
+	&--fs--9 {
+		font-size: rem(font-size(fs--9));
 	}
 
-	&--massive {
-		@extend %text--massive
+	&--fs--8 {
+		font-size: rem(font-size(fs--8));
 	}
 
-	&--monolithic {
-		@extend %text--monolithic;
+	&--fs--7 {
+		font-size: rem(font-size(fs--7));
+	}
+
+	&--fs--6 {
+		font-size: rem(font-size(fs--6));
+	}
+
+	&--fs--5 {
+		font-size: rem(font-size(fs--5));
+	}
+
+	&--fs--4 {
+		font-size: rem(font-size(fs--4));
+	}
+
+	&--fs--3 {
+		font-size: rem(font-size(fs--3));
+	}
+
+	&--fs--2 {
+		font-size: rem(font-size(fs--2));
+	}
+
+	&--fs--1 {
+		font-size: rem(font-size(fs--1));
+	}
+
+	&--fs--0 {
+		font-size: rem(font-size(fs--0));
 	}
 }
 
