@@ -1,0 +1,65 @@
+.#{$pre}heading-group {
+    margin-bottom: layout(spacing--md);
+
+    &__rule {
+        @extend %rule--heading-rule;
+        margin-top: layout(spacing--xl);
+        display: block;
+    }
+
+    &--caps {
+        .#{$pre}heading-group__heading {
+            text-transform: uppercase;
+        }
+    }
+
+    &--default {
+
+        .#{$pre}heading-group__subheading {
+            font-family: font-family(text);
+            font-weight: 400;
+            @include responsive-type(fs--7, display);
+        }
+
+        .#{$pre}heading-group__heading {
+            @include responsive-type(fs--3, display);
+        }
+    }
+
+    &--copy {
+
+        .#{$pre}heading-group__heading {
+            @include responsive-type(fs--5, display);
+            text-transform: uppercase;
+        }
+    }
+
+    &--giant {
+
+        .#{$pre}heading-group__heading {
+            @include responsive-type(fs--1, display);
+            text-transform: uppercase;
+        }
+
+        .#{$pre}heading-group__subheading {
+            @include responsive-type(fs--5, display);
+            text-transform: uppercase;
+        }
+    }
+
+    &--logo {
+        .#{$pre}heading-group__logo {
+            display: inline-block;
+            float: right;
+            margin-bottom: layout(spacing--md);
+        }
+
+        .#{$pre}heading-group__heading {
+            @include responsive-type(fs--4, display);
+            font-weight: 100;
+            text-align: right;
+            clear: both;
+            color: color(gray--extra-light);
+        }
+    }
+}

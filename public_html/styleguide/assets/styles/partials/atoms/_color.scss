@@ -1,0 +1,4 @@
+.#{$pre}color {
+    @include text-colors;
+    @include background-colors;
+}

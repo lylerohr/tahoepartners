@@ -1,1 +1,23 @@
 
+.#{$pre}blockquote {
+    padding: 0 layout(spacing--md);
+
+    &__quote {
+        @include responsive-type(fs--5, display);
+        font-family: font-family(text);
+        color: color(black);
+        margin-bottom: layout(spacing--lg);
+    }
+
+    &__byline {
+        @include responsive-type(fs--12, display);
+        font-family: font-family(display);
+        font-weight: bold;
+        text-align: right;
+        color: color(seafoam--light);
+    }
+
+    &--reverse {
+        color: color(white);
+    }
+}

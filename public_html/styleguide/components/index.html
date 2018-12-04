@@ -386,9 +386,23 @@
 							<div class="cd_component">
 								<h3 class="cd_component__title">Heading Groups</h3>
 								<div class="cd_headings cd_heading-groups">
-									<div class="wm_heading-group wm_heading-group--tiny">
-										<h6 class="wm_heading-group__heading">Tiny Heading Group</h6>
-										<span class="wm_heading-group__border"></span>
+									<div class="tp_heading-group tp_heading-group--default">
+										<h6 class="tp_heading-group__subheading">Subheading text.</h6>
+										<h3 class="tp_heading-group__heading">Standard heading group.</h3>
+										<hr class="tp_heading-group__rule" />
+									</div>
+									<div class="tp_heading-group tp_heading-group--copy">
+										<h3 class="tp_heading-group__heading">Copy Heading</h3>
+										<hr class="tp_heading-group__rule" />
+									</div>
+									<div class="tp_heading-group tp_heading-group--giant">
+										<h3 class="tp_heading-group__heading">Giant Heading</h3>
+										<h4 class="tp_heading-group__subheading">Subheading Text</h4>
+										<hr class="tp_heading-group__rule" />
+									</div>
+									<div class="tp_heading-group tp_heading-group--logo">
+										<img class="tp_heading-group__logo" src="../assets/images/logo.png"/>
+										<h4 class="tp_heading-group__heading">Heading Text</h4>
 									</div>
 								</div>
 								<div class="cd_component__markup-display">
@@ -656,6 +670,34 @@
 						</div>
 						<!-- EO ORDERED LIST - ALPHA -->
 
+						<!-- BLOCKQUOTE LIST -->
+						<div class="cd_component">
+							<h3 class="cd_component__title">Blockquote List</h3>
+							<div class="cd_component__column cd_column--links">
+								<ul class="tp_list tp_list--blockquote">
+									<li class="tp_list__item">
+										<h4 class="tp_list__big-bullet">1.</h4>
+										<p class="tp_list__copy">This is the copy that goes here.</p>
+									</li>
+									<li class="wm_list__item">
+										<h4 class="tp_list__big-bullet">2.</h4>
+										<p class="tp_list__copy">This is the copy that goes here.</p>
+									</li>
+									<li class="wm_list__item">
+										<h4 class="tp_list__big-bullet">3.</h4>
+										<p class="tp_list__copy">This is the copy that goes here.</p>
+									</li>
+								</ul>
+							</div>
+							<div class="cd_component__markup-display">
+								<pre><code class="language-markup"><script> --- </script></code></pre>
+							</div>
+							<div class="cd_component__style-display">
+								<pre><code class="language-css">[Sass]</code></pre>
+							</div>
+						</div>
+						<!-- EO BLOCKQUOTE LIST -->
+
 					</div>
 					<!-- EO LISTS -->
 
@@ -669,7 +711,11 @@
 							<h3 class="cd_component__title">Standard Inputs</h3>
 							<div class="cd_component__column cd_column--forms">
 
-								Form inputs
+								<label>Text Input</label>
+								<input class="tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+
+								<label>Textarea</label>
+								<textarea class="tp_input" name="name" placeholder="This is a textarea."></textarea>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -686,7 +732,11 @@
 							<h3 class="cd_component__title">Invalid Groups</h3>
 							<div class="cd_component__column cd_column--forms">
 
-								Invalid Form Inputs
+								<label>Text Input - Warning</label>
+								<input class="tp_input tp_input--warn" type="text" name="" value="" placeholder="This is your only warning.">
+
+								<label>Textarea - Warning</label>
+								<textarea class="tp_input tp_input--warn" name="name" placeholder="This is a textarea."></textarea>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -706,7 +756,7 @@
 					<div class="cd_section--component-group">
 						<h3 class="cd_component-group-title">Cards</h3>
 
-						<!-- BASIC CARD - FLUID HEIGHT -->
+						<!-- Standard Text Card -->
 						<div class="cd_component">
 							<h3 class="cd_component__title">Standard Text Card</h3>
 
@@ -791,9 +841,37 @@
 								</code></pre>
 							</div>
 						</div>
-						<!-- EO BASIC CARD - FLUID HEIGHT -->
+						<!-- EO Standard Text Card -->
 
-						<!-- MEDIA OBJECT -->
+						<!-- BLOCKQUOTE -->
+						<div class="cd_component">
+							<h3 class="cd_component__title">Blockquote</h3>
+
+							<div class="cd_component__column">
+								<div class="row">
+
+									<div class="col-sm-12">
+										<div class="tp_blockquote">
+											<p class="tp_blockquote__quote">The all-encompassing strategy that Transformers pursue is like a racecar, while the strategy that Bolt-Ons pursue — tacking on digital elements to existing strategies — is like tacking on a spoiler to a minivan.</p>
+											<p class="tp_blockquote__byline">“Accelerating Digital Transformation with Technology”, Forrester, 2017</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="cd_component__markup-display">
+								<pre><code class="language-markup"><script>
+								</script></code></pre>
+							</div>
+							<div class="cd_component__style-display">
+								<pre><code class="language-css">[Sass]
+								</code></pre>
+							</div>
+						</div>
+						<!-- EO BLOCKQUOTE -->
+
+						<!-- Base Media Object -->
 						<div class="cd_component">
 							<h3 class="cd_component__title">Base Media Object</h3>
 
@@ -825,7 +903,7 @@
 								<pre><code class="language-css">[Sass]</code></pre>
 							</div>
 						</div>
-						<!-- EO MEDIA OBJECT -->
+						<!-- EO Base Media Object -->
 
 					</div>
 					<!-- EO CARDS -->

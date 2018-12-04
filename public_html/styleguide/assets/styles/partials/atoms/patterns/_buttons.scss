@@ -49,6 +49,7 @@ $button-patterns: (
 				box-shadow: shadow(depressed, color(drop--active)) !important,
 				top: layout(spacing--3xs),
 				transition: transition(fast),
+				transform: rotate(-2deg),
 			),
 		),
 		"--ghost": (

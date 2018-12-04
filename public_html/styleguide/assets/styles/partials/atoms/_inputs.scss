@@ -10,4 +10,8 @@ textarea {
 
 .#{$pre}input {
 	@extend %input;
+
+	&--warn {
+		@extend %input--warn;
+	}
 }

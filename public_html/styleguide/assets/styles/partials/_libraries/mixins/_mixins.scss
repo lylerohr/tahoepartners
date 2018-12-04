@@ -159,3 +159,19 @@
 		@warn "Icon button cannot be generated.";
 	}
 }
+
+@mixin text-colors {
+	@each $key, $value in $colors {
+		&--text-#{$key} {
+			color: $value;
+		}
+	}
+}
+
+@mixin background-colors {
+	@each $key, $value in $colors {
+		&--bg-#{$key} {
+			background-color: $value;
+		}
+	}
+}
