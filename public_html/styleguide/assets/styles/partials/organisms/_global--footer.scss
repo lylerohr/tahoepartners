@@ -1,3 +1,49 @@
 .#{$pre}footer {
-    
+    background-color: color(black);
+    padding-top: layout(spacing--lg);
+    padding-bottom: layout(spacing--sm);
+    @include clearfix;
+
+    &__left {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
+    &__ms-gold {
+        display: inline-block;
+    }
+
+    &__center {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
+    &__logo {
+        display: inline-block;
+    }
+
+    &__right {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
+    &__right-content {
+        display: inline-block;
+        padding-top: layout(spacing--2xs);
+
+        nav {
+            display: inline;
+        }
+    }
+
+    &__copyright {
+        color: color(gray--extra-light);
+        float: left;
+        @include responsive-type(fs--14, text);
+        font-family: font-family(display);
+        margin-left: layout(spacing--xl);
+    }
 }

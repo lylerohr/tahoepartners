@@ -4,9 +4,14 @@ fieldset {
 	border: none;
 }
 
-textarea {
-	@extend %input;
+.#{$pre}input-group {
+	&__label {
+		font-family: font-family(display);
+		@include responsive-type(fs--13, text);
+	}
 }
+
+
 
 .#{$pre}input {
 	@extend %input;

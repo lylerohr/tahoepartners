@@ -1,0 +1,17 @@
+{% block content %}
+
+  {% if site_logo %}
+    <div class="tp_header__left">
+        <a class="tp_logo-link" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+            <img class="tp_logo" src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+        </a>
+    </div>
+  {% endif %}
+
+
+  {% if site_name %}
+    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+  {% endif %}
+  {{ site_slogan }}
+
+{% endblock %}

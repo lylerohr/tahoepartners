@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.1/css/brands.css" integrity="sha384-E5dVkWQIVhVPtBz/KK2TS7EM9l1+5XiWFPX7l3+5ayHPwDguGsHqof3GQbk55AS3" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-bHoj6f1b1CQ6zapOREeYBO/JnDjeV1fLuKn3KHnbqAAnkLva11KY3m8YyKPVXYLF" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="../assets/styles/app.css">
+		<link rel="stylesheet" type="text/css" href="../../themes/custom/tahoe/styles/app.css">
 		<link href="../assets/vendor/prism/prism.css" rel="stylesheet" />
 	</head>
 	<body>
@@ -404,6 +404,10 @@
 										<img class="tp_heading-group__logo" src="../assets/images/logo.png"/>
 										<h4 class="tp_heading-group__heading">Heading Text</h4>
 									</div>
+									<div class="tp_heading-group tp_heading-group--feature">
+										<h3 class="tp_heading-group__heading">Giant Heading</h3>
+										<h4 class="tp_heading-group__subheading">Heading Text</h4>
+									</div>
 								</div>
 								<div class="cd_component__markup-display">
 									<pre><code class="language-markup"><script> --- </script></code></pre>
@@ -456,11 +460,14 @@
 						<div class="cd_component">
 							<h3 class="cd_component__title">Links</h3>
 							<div class="cd_component__column cd_column--links">
-								<a class="cd_link tp_link" href="#">
+								<a class="cd_link tp_link" >
 									Basic text link.
 								</a>
-								<a class="cd_link tp_link--inline" href="#">
+								<a class="cd_link tp_link--inline" >
 									Inline Link
+								</a>
+								<a class="cd_link tp_link--nav" >
+									Nav Link
 								</a>
 							</div>
 							<div class="cd_component__markup-display">
@@ -476,27 +483,27 @@
 						<div class="cd_component">
 							<h3 class="cd_component__title">Standard Buttons</h3>
 							<div class="cd_component__column cd_column--links">
-								<a class="tp_button" href="#">
+								<a class="tp_button" >
 									Default Button
 								</a>
 							</div>
 							<div class="cd_component__column cd_column--links">
-								<a class="tp_button--ghost" href="#">
+								<a class="tp_button--ghost" >
 									Ghost Button
 								</a>
 							</div>
 							<div class="cd_component__column cd_column--links">
-								<a class="tp_button--ghost-reverse" href="#">
+								<a class="tp_button--ghost-reverse" >
 									Reverse Ghost Button
 								</a>
 							</div>
 							<div class="cd_component__column cd_column--links">
-								<a class="tp_button--ghost-round" href="#">
+								<a class="tp_button--ghost-round">
 									<span class="fal fa-chevron-right"></span>
 								</a>
 							</div>
 							<div class="cd_component__column cd_column--links">
-								<a class="tp_button--link" href="#">
+								<a class="tp_button--link">
 									Link Button
 								</a>
 							</div>
@@ -711,11 +718,16 @@
 							<h3 class="cd_component__title">Standard Inputs</h3>
 							<div class="cd_component__column cd_column--forms">
 
-								<label>Text Input</label>
-								<input class="tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+								<div class="tp_input-group">
+									<label class="tp_input-group__label">Text Input</label>
+									<input class="tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+								</div>
 
-								<label>Textarea</label>
-								<textarea class="tp_input" name="name" placeholder="This is a textarea."></textarea>
+								<div class="tp_input-group">
+									<label class="tp_input-group__label">Textarea</label>
+									<textarea class="tp_input" name="name" placeholder="This is a textarea."></textarea>
+								</div>
+
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -732,11 +744,58 @@
 							<h3 class="cd_component__title">Invalid Groups</h3>
 							<div class="cd_component__column cd_column--forms">
 
-								<label>Text Input - Warning</label>
-								<input class="tp_input tp_input--warn" type="text" name="" value="" placeholder="This is your only warning.">
+								<div class="tp_input-group">
+									<label class="tp_input-group__label">Text Input</label>
+									<input class="tp_input tp_input--warn" type="text" name="" value="" placeholder="This is a standard text field.">
+								</div>
 
-								<label>Textarea - Warning</label>
-								<textarea class="tp_input tp_input--warn" name="name" placeholder="This is a textarea."></textarea>
+								<div class="tp_input-group">
+									<label class="tp_input-group__label">Textarea</label>
+									<textarea class="tp_input tp_input--warn" name="name" placeholder="This is a textarea."></textarea>
+								</div>
+
+							</div>
+							<div class="cd_component__markup-display">
+								<pre><code class="language-markup"><script> --- </script></code></pre>
+							</div>
+							<div class="cd_component__style-display">
+								<pre><code class="language-css">[Sass]</code></pre>
+							</div>
+						</div>
+						<!-- EO INPUT GROUPS -->
+
+						<!-- FORM LAYOUT -->
+						<div class="cd_component">
+							<h3 class="cd_component__title">Form Layout</h3>
+							<div class="cd_component__column cd_column--forms">
+
+								<div class="tp_form"> <!-- THIS IS A COMPONENT -->
+									<h4 class="tp_form__title">Form Title</h4>
+									<form class="tp_form__form" action="index.html" method="post">
+										<div class="tp_form__row">
+											<div class="tp_form__column">
+												<div class="tp_input-group">
+													<label class="tp_input-group__label">Text Input</label>
+													<input class="tp_input tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+												</div>
+												<div class="tp_input-group">
+													<label class="tp_input-group__label">Text Input</label>
+													<input class="tp_input tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+												</div>
+											</div>
+											<div class="tp_form__column">
+												<div class="tp_input-group">
+													<label class="tp_input-group__label">Text Input</label>
+													<input class="tp_input tp_input" type="text" name="" value="" placeholder="This is a standard text field.">
+												</div>
+												<div class="tp_input-group">
+													<label class="tp_input-group__label">Textarea</label>
+													<textarea class="tp_input tp_input" name="name" placeholder="This is a textarea."></textarea>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -843,6 +902,33 @@
 						</div>
 						<!-- EO Standard Text Card -->
 
+						<!-- Standard Text Card -->
+						<div class="cd_component">
+							<h3 class="cd_component__title">Standard Text Card</h3>
+
+							<div class="cd_component__column">
+								<div class="row">
+
+									<div class="col-sm-6">
+										<div class="tp_card tp_card--transparent">
+											<h3 class="tp_heading--extra-small">Surface Content</h3>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="cd_component__markup-display">
+								<pre><code class="language-markup"><script>
+								</script></code></pre>
+							</div>
+							<div class="cd_component__style-display">
+								<pre><code class="language-css">[Sass]
+								</code></pre>
+							</div>
+						</div>
+						<!-- EO Standard Text Card -->
+
 						<!-- BLOCKQUOTE -->
 						<div class="cd_component">
 							<h3 class="cd_component__title">Blockquote</h3>
@@ -881,7 +967,7 @@
 
 										<div class="tp_media">
 											<a href="#" class="tp_media__interest">
-												<img class="tp_media__interest-content" src="https://placeimg.com/250/250/arch/grayscale" alt="me" />
+												<img class="tp_media__interest-content" src="https://placeimg.com/640/480/arch/grayscale" alt="me" />
 											</a>
 											<div class="tp_media__body">
 												<h4 class="tp_media__title tp_heading--3 tp_heading--blue-dark tp_heading--bold">This is the title.</h4>
@@ -889,6 +975,32 @@
 												<p class="tp_media__copy tp_text">Proin dolor velit, dictum id ultrices mollis, viverra vitae dolor. Ut ac massa et dui maximus scelerisque. Nam eu sapien libero. Nullam in libero vitae erat rutrum consectetur eliti.</p>
 												<a class="tp_button--ghost tp_media__cta">Action</a>
 												<span class="tp_media__secondary-cta--inline">Secondary CTA <a class="tp_link--inline tp_secondary-cta-link">link</a>.</span>
+											</div>
+										</div>
+
+										<div class="tp_media tp_media--work">
+											<a href="#" class="tp_media__interest">
+												<img class="tp_media__interest-content" src="https://placeimg.com/640/480/arch/grayscale" alt="me" />
+											</a>
+											<div class="tp_media__body">
+												<img class="tp_media__client-logo" src="../assets/images/aar-black.png" alt="">
+												<hr class="tp_media__rule"
+												<p class="tp_media__copy tp_text">Proin dolor velit, dictum id ultrices mollis, viverra vitae dolor. Ut ac massa et dui maximus scelerisque. Nam eu sapien libero. Nullam in libero vitae erat rutrum consectetur eliti.</p>
+												<a class="tp_media__cta">Action</a>
+
+											</div>
+										</div>
+
+										<div class="tp_media tp_media--work tp_media--rtl">
+											<a href="#" class="tp_media__interest">
+												<img class="tp_media__interest-content" src="https://placeimg.com/640/480/arch/grayscale" alt="me" />
+											</a>
+											<div class="tp_media__body">
+												<img class="tp_media__client-logo" src="../assets/images/aar-black.png" alt="">
+												<hr class="tp_media__rule"
+												<p class="tp_media__copy tp_text">Proin dolor velit, dictum id ultrices mollis, viverra vitae dolor. Ut ac massa et dui maximus scelerisque. Nam eu sapien libero. Nullam in libero vitae erat rutrum consectetur eliti.</p>
+												<a class="tp_media__cta">Action</a>
+
 											</div>
 										</div>
 
@@ -953,12 +1065,37 @@
 					<i id="mastheads"></i>
 					<div class="cd_section--component-group">
 						<h3 class="cd_component-group-title">Mastheads</h3>
+
 						<!-- STANDARD MASTHEAD -->
 						<div class="cd_component">
-							<h3 class="cd_component__title">Standard Masthead</h3>
+							<h3 class="cd_component__title">Standard Mastheads</h3>
 							<div class="cd_component__column cd_column--links">
 
-								Masthead
+								<div class="tp_masthead tp_masthead--default">
+									<img class="tp_masthead__image" src="https://via.placeholder.com/1200" alt="">
+									<h1 class="tp_masthead__title">Title</h1>
+								</div>
+
+								<div class="tp_masthead tp_masthead--large">
+									<img class="tp_masthead__image" src="https://via.placeholder.com/1200" alt="">
+									<h1 class="tp_masthead__title">Title</h1>
+								</div>
+
+								<div class="tp_masthead tp_masthead--work">
+									<img class="tp_masthead__image" src="https://via.placeholder.com/1200" alt="">
+									<div class="tp_masthead__title tp_heading-group tp_heading-group--logo">
+										<img class="tp_heading-group__logo" src="../assets/images/logo.png"/>
+										<h4 class="tp_heading-group__heading">A sophisticated SharePoint portal framework, with custom desktop and intuitive mobile friendly customer sites. </h4>
+									</div>
+								</div>
+
+								<div class="tp_masthead tp_masthead--feature">
+									<img class="tp_masthead__image" src="https://via.placeholder.com/1200" alt="">
+									<div class="tp_masthead__title tp_heading-group tp_heading-group--feature">
+										<h3 class="tp_heading-group__heading">Giant Heading</h3>
+										<h4 class="tp_heading-group__subheading">Heading Text</h4>
+									</div>
+								</div>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -983,7 +1120,32 @@
 							<h3 class="cd_component__title">Global Header</h3>
 							<div class="cd_component__column">
 
-								Header
+								<div class="tp_header">
+									<div class="tp_header__left">
+										<a class="tp_logo-link">
+											<img class="tp_logo" src="../assets/images/tahoe-partners-logo.png" alt="Tahoe Partners Logo">
+										</a>
+									</div>
+									<div class="tp_header__right">
+										<ul class="tp_nav-menu">
+											<li class="tp_nav-menu__item">
+												<a class="tp_nav-menu__link">Transform</a>
+											</li>
+											<li class="tp_nav-menu__item">
+												<a class="tp_nav-menu__link">Solutions</a>
+											</li>
+											<li class="tp_nav-menu__item">
+												<a class="tp_nav-menu__link">About</a>
+											</li>
+											<li class="tp_nav-menu__item">
+												<a class="tp_nav-menu__link">Work</a>
+											</li>
+											<li class="tp_nav-menu__item">
+												<a class="tp_nav-menu__link">Contact</a>
+											</li>
+										</ul>
+									</div>
+								</div>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -1000,7 +1162,30 @@
 							<h3 class="cd_component__title">Global Footer</h3>
 							<div class="cd_component__column cd_column--links">
 
-								Footer
+								<div class="tp_footer">
+									<div class="tp_footer__left">
+										<a href="https://partner.microsoft.com/en-US/">
+											<img class="tp_footer__ms-gold" src="../assets/images/ms-gold-partner.png" alt="">
+										</a>
+									</div>
+									<div class="tp_footer__center">
+										<a href="/">
+											<img class="tp_footer__logo" src="../assets/images/tahoe-partners-logo-lockup.png" alt="">
+										</a>
+									</div>
+									<div class="tp_footer__right">
+										<div class="tp_footer__right-content">
+											<ul class="tp_footer-nav">
+												<li class="tp_footer-nav__item">
+													<a class="tp_footer-nav__link" href="#">Careers</a>
+												</li>
+											</ul>
+											<p class="tp_footer__copyright">&copy;2018 - Tahoe Partners LLC</p>
+										</div>
+
+									</div>
+
+								</div>
 
 							</div>
 							<div class="cd_component__markup-display">
@@ -1011,6 +1196,46 @@
 							</div>
 						</div>
 						<!-- EO FOOTER -->
+
+						<!-- CONTACT BANNER -->
+						<div class="cd_component">
+							<h3 class="cd_component__title">Contact Banner</h3>
+							<div class="cd_component__column cd_column--links">
+
+								<div class="tp_footer">
+									<div class="tp_footer__left">
+										<a href="https://partner.microsoft.com/en-US/">
+											<img class="tp_footer__ms-gold" src="../assets/images/ms-gold-partner.png" alt="">
+										</a>
+									</div>
+									<div class="tp_footer__center">
+										<a href="/">
+											<img class="tp_footer__logo" src="../assets/images/tahoe-partners-logo-lockup.png" alt="">
+										</a>
+									</div>
+									<div class="tp_footer__right">
+										<div class="tp_footer__right-content">
+											<ul class="tp_footer-nav">
+												<li class="tp_footer-nav__item">
+													<a class="tp_footer-nav__link" href="#">Careers</a>
+												</li>
+											</ul>
+											<p class="tp_footer__copyright">&copy;2018 - Tahoe Partners LLC</p>
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+							<div class="cd_component__markup-display">
+								<pre><code class="language-markup"><script> --- </script></code></pre>
+							</div>
+							<div class="cd_component__style-display">
+								<pre><code class="language-css">[Sass]</code></pre>
+							</div>
+						</div>
+						<!-- EO CONTACT BANNER -->
 					</div>
 					<!-- EO NAVIGATION -->
 

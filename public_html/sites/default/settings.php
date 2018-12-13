@@ -768,6 +768,11 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
+
 $databases['default']['default'] = array (
   'database' => 'tpartners',
   'username' => 'tpartnersdbuser',
@@ -778,4 +783,5 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+
 $config_directories['sync'] = 'sites/default/files/config_iLIhUbr_MxOb0hIcO6YUbqVRv5xw4E0KnGrvaTepSvGIaMe-G16LqCSQkk8b9vEYotdwP-29kQ/sync';

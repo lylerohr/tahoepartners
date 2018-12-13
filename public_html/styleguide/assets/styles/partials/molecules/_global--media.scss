@@ -1,40 +1,40 @@
-.#{$pre}media,
-.#{$pre}media__body {
+.tp-media,
+.tp-media__body {
     overflow: hidden;
     _overflow: visible;
     zoom: 1;
 }
 
-.#{$pre}media {
+.tp-media {
     margin: 0 0 margin(large) 0;
 
-    &__interest {
+    &--interest {
         float: left;
-        margin-right: margin(base);
+        margin-right: layout(spacing--lg);
         max-width: 50%;
     }
 
-    &__interest-content {
+    &--interest-content {
         display: block;
         max-width: 100%;
     }
 
-    &__body {
+    &--body {
 
-        .#{$pre}media__title {
-
-        }
-
-        .#{$pre}media__copy {
+        .tp-media__title {
 
         }
 
-        .#{$pre}media__cta {
-            margin-right: margin(base);
-            margin-bottom: margin(base);
+        .tp-media__copy {
+
         }
 
-        .#{$pre}media__secondary-cta {
+        .tp-media__cta {
+            margin-right: layout(spacing--lg);
+            margin-bottom: layout(spacing--lg);
+        }
+
+        .tp-media__secondary-cta {
             clear: both;
             display: block;
 
@@ -51,5 +51,65 @@
         padding-top: padding(large);
         padding-left: padding(extra-large);
         margin-bottom: margin(base);
+    }
+
+    &--work {
+        position: relative;
+        margin-bottom: layout(layout--md);
+        padding-bottom: .5rem;
+
+        .tp-media--interest {
+            position: relative;
+            min-height: 450px;
+            max-height: 450px;
+            width: 58.3333%;
+            max-width: 58.3333%;
+            overflow: hidden;
+            box-shadow: shadow(inactive, drop--inactive) color(drop--inactive);
+        }
+
+        .tp-media--interest img {
+            min-height: 100%;
+            @include hv-center;
+        }
+
+        .tp-media--body {
+            padding-top: layout(layout--lg);
+        }
+
+        .tp-media--client-logo {
+            @include clearfix;
+            margin-bottom: layout(spacing--xl);
+        }
+
+        .tp-media--rule {
+            @extend %rule--heading-rule;
+            margin-bottom: layout(spacing--md);
+        }
+
+
+
+    }
+
+    &--rtl {
+        margin-bottom: layout(layout--lg) * -1;
+
+        .tp-media--interest {
+            float: right;
+            margin-right: 0;
+        }
+
+        .tp-media--body {
+            padding-right: layout(spacing--md);
+            padding-top: layout(layout--sm);
+        }
+
+        .tp-media--client-logo {
+            padding-top: layout(spacing--lg);
+        }
+
+        .tp-media--teaser-text {
+            text-align: right;
+        }
     }
 }

@@ -1,0 +1,7 @@
+.tp-case-studies {
+
+    .tp-media--work:nth-child(odd) {
+        @extend .tp-media--rtl;
+    }
+    
+}

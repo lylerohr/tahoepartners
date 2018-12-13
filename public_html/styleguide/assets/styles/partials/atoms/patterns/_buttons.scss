@@ -24,6 +24,8 @@ $button-patterns: (
 	border: border(thin, transparent),
 	transition: transition(base),
 	position: relative,
+	text-decoration: none,
+	outline: none,
 	top: 0,
 	"::before": (),
 	"::after": (),

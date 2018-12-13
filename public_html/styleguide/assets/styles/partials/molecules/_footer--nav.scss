@@ -1,0 +1,25 @@
+.tp_footer-nav {
+    @extend .tp_list--inline;
+    float: left;
+
+    &__item {
+        margin-right: layout(spacing--md);
+
+        .tp_footer-nav__link,
+        a {
+            color: color(gray--extra-light);
+            font-family: font-family(display);
+            @include responsive-type(fs--14, text);
+            letter-spacing: .01rem;
+            text-decoration: none;
+            transition: transition(base);
+
+            &:hover {
+                text-decoration: none;
+                color: color(seafoam--light);
+            }
+        }
+    }
+
+
+}

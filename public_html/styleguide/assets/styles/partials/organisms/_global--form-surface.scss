@@ -1,0 +1,33 @@
+.#{$pre}form {
+
+    &__title {
+        @extend %heading--small;
+        margin-bottom: 1rem;
+    }
+
+    &__form {
+
+    }
+
+    &__row {
+        display: flex;
+
+        .#{$pre}form__column {
+            flex-grow: 1;
+            flex-basis: 0;
+
+            .#{$pre}nput--group {
+
+            }
+
+            @include respond-to(tablet) {
+                margin-right: 1rem;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+
+        }
+    }
+}

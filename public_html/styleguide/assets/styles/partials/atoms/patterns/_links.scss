@@ -50,6 +50,27 @@ $link-patterns: (
 				text-decoration: underline,
 			),
 		),
+		"--nav": (
+			pattern-config: (
+				responsive-type: true,
+				size: fs--14,
+				type-style: display,
+			),
+			color: color(seafoam--black),
+			font-family: font-family(display),
+			font-weight: 700,
+			letter-spacing: .04rem,
+			text-transform: uppercase,
+			text-decoration: none,
+			display: inline-block !important,
+			padding: 0 layout(spacing--sm) layout(spacing--2xs) 0,
+			border-bottom: border(thick, transparent),
+			":hover": (
+				color: color(seafoam--black),
+				text-decoration: none,
+				border-bottom: border(thick, seafoam--black),
+			),
+		),
 	),
 );
 

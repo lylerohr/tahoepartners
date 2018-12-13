@@ -1,11 +1,15 @@
-a {
-	@extend %link;
-}
-
 .#{$pre}link {
 	@extend %link;
 
 	&--inline {
 		@extend %link--inline;
+	}
+
+	&--nav {
+		@extend %link--nav;
+
+		&.is-active {
+			border-bottom: border(thick, seafoam--black);
+		}
 	}
 }

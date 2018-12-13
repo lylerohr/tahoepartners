@@ -1,3 +1,31 @@
 .#{$pre}header {
+    height: 4rem;
+    background-color: transparentize(color(white), 1);
+    padding: 0 layout(spacing--md);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: z(sticky-nav);
 
+    &.scrolled {
+        background-color: transparentize(color(white), .05);
+        height: 3rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: z(sticky-nav);
+        width: 100%;
+    }
+
+    &__left {
+        float: left;
+        @include vertical-center;
+    }
+
+    &__right {
+        @include vertical-center;
+        right: layout(spacing--xl);
+        margin-top: layout(spacing--2xs);
+    }
 }

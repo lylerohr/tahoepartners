@@ -1,0 +1,15 @@
+.#{$pre}nav-menu {
+    @extend .tp_list--inline;
+
+    &__item {
+        margin-left: layout(spacing--xs);
+
+        & a {
+            @extend %link--nav;
+        }
+    }
+
+    &__link {
+        @extend %link--nav;
+    }
+}

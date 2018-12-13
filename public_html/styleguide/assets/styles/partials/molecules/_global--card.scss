@@ -41,6 +41,11 @@
         }
     }
 
+    &--transparent {
+        background-color: transparentize(color(white), .05);
+        padding: layout(spacing--lg);
+    }
+
     &--reverse {
         // COMBAK: REMOVE FOR PRODUCTION
         background-color: color(gray);

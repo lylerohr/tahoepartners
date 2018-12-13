@@ -60,6 +60,25 @@
             text-align: right;
             clear: both;
             color: color(gray--extra-light);
+            text-transform: none;
+        }
+    }
+
+    &--feature {
+        .#{$pre}heading-group__heading {
+            @include responsive-type(fs--0, display);
+            text-transform: uppercase;
+            text-align: right;
+            color: color(gray--extra-light);
+        }
+
+        .#{$pre}heading-group__subheading {
+            @include responsive-type(fs--4, display);
+            font-weight: 100;
+            text-align: right;
+            clear: both;
+            color: color(gray--extra-light);
+            text-transform: none;
         }
     }
 }

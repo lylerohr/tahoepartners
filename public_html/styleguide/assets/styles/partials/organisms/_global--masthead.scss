@@ -1,0 +1,57 @@
+.#{$pre}masthead {
+    position: relative;
+    margin-bottom: layout(layout--lg);
+    background-color: color(red);
+    overflow: hidden;
+
+    &__image {
+        @include hv-center;
+        width: 100%;
+        z-index: 1;
+    }
+
+    &__title {
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        z-index: 100;
+    }
+
+    &--default {
+        padding-top: layout(layout--sm);
+        padding-bottom: layout(layout--2xs);
+
+        .#{$pre}masthead__title {
+            @include responsive-type(fs--1, display);
+        }
+    }
+
+    &--large {
+        padding-top: layout(layout--xl);
+        padding-bottom: layout(layout--lg);
+
+        .#{$pre}masthead__title {
+            @include responsive-type(fs--0, display);
+        }
+    }
+
+    &--work {
+        padding-top: layout(layout--2xl);
+        padding-bottom: layout(layout--sm);
+
+        .#{$pre}masthead__title {
+            @extend .container;
+            padding: 0;
+        }
+    }
+
+    &--feature {
+        padding-top: layout(layout--2xl);
+        padding-bottom: layout(layout--sm);
+
+        .#{$pre}masthead__title {
+            @extend .container;
+            padding: 0;
+        }
+    }
+}

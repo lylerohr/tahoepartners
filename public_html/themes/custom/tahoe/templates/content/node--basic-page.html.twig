@@ -1,0 +1,35 @@
+<article{{ attributes }}>
+
+<div class="tp_masthead tp_masthead--default" {{ content_attributes }}>
+    <div class="tp_masthead__image">
+        {{ content.field_page__masthead_bg_image }}
+    </div>
+    <h1 class="tp_masthead__title">
+        {{ content.field_page__masthead_title }}
+    </h1>
+</div>
+
+<div>
+    {{ content.body }}
+</div>
+
+
+  {{ title_prefix }}
+  {% if not page %}
+    <h2{{ title_attributes }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  {% if display_submitted %}
+    <footer>
+      {{ author_picture }}
+      <div{{ author_attributes }}>
+        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        {{ metadata }}
+      </div>
+    </footer>
+  {% endif %}
+
+</article>

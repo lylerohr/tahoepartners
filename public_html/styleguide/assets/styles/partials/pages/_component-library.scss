@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,900');
 
+html {
+    background-color: color(gray--extra-light);
+}
+
 .cd_heading {
     &--1 {
         @extend %heading--monolithic;

@@ -4,7 +4,7 @@
 $input-patterns: (
 	pattern-config: (
 		responsive-type: true,
-		size: fs--base,
+		size: fs--12,
 		name: 'input',
 		type-style: text,
 	),
@@ -37,7 +37,7 @@ $input-patterns: (
 		"--warn": (
 			pattern-config: (
 				responsive-type: true,
-				size: fs--base,
+				size: fs--12,
 				type-style: text,
 			),
 			color: color(red),

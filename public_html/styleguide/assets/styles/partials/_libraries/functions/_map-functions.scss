@@ -146,7 +146,7 @@
 
 @function shadow($height, $color...) {
 	@if map-has-key($drop-shadows, $height) {
-	   @return #{map-get($drop-shadows, $height)} $color;
+	   @return #{map-get($drop-shadows, $height)} color($color);
 	} @else {
 		@warn "No such drop shadow height of name - '#{$height}.";
 	}
