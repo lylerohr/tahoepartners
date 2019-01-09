@@ -1,0 +1,22 @@
+
+{% if content %}
+  <div{{ attributes }}>
+      <div class="tp_footer__left">
+          <a href="https://partner.microsoft.com/en-US/">
+              <img class="tp_footer__ms-gold" src="/themes/tahoe/images/ms-gold-partner.png" alt="">
+          </a>
+      </div>
+      <div class="tp_footer__center">
+          <a href="/">
+              <img class="tp_footer__logo" src="/themes/tahoe/images/tahoe-partners-logo-lockup.png" alt="">
+          </a>
+      </div>
+      <div class="tp_footer__right">
+          <div class="tp_footer__right-content">
+            {{ content }}
+              <p class="tp_footer__copyright">&copy; {{ "now"|date("Y") }} - Tahoe Partners LLC</p>
+          </div>
+
+      </div>
+  </div>
+{% endif %}

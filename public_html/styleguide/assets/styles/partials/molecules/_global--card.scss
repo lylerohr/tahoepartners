@@ -16,6 +16,7 @@
 
     .#{$pre}card__button {
         display: none;
+        z-index: 100;
     }
 
 
@@ -48,7 +49,7 @@
 
     &--reverse {
         // COMBAK: REMOVE FOR PRODUCTION
-        background-color: color(gray);
+        //background-color: color(gray);
         padding: layout(spacing--xl) layout(spacing--sm);
 
         .#{$pre}card__heading {

@@ -14,7 +14,7 @@ $link-patterns: (
 	padding: 0,
 	text-align: inherit,
 	font-family: font-family(text),
-	color: color(seafoam),
+	color: color(seafoam--dark),
 	text-decoration: none,
 	vertical-align: inherit,
 	touch-action: auto,
@@ -26,7 +26,7 @@ $link-patterns: (
 	":hover": (
 		background-color: color(clear),
 		text-decoration: none,
-		color: color(seafoam--light),
+		color: color(seafoam),
 		border: none,
 	),
 	":active": (

@@ -1,0 +1,123 @@
+<div class="tp_stage tp_case-study">
+
+    <div class="tp_header" role="banner">
+      {{ page.header }}
+    </div>
+
+    <div class="tp_template tp_template--masthead">
+        <div class="tp_template__section">
+        <div class="tp_masthead tp_masthead--work">
+            <img class="tp_masthead__image" src="{{ file_url(node.field_work__featured_image.entity.fileuri) }} " alt="{{ node.field_work__featured_image.alt }}">
+            <div class="tp_masthead__image-overlay"></div>
+            <div class="tp_masthead__title tp_heading-group tp_heading-group--logo">
+                <img class="tp_heading-group__logo" src="{{ file_url(node.field_work__client_logo_color.entity.fileuri) }}" alt="{{ node.field_work__client_logo_color.alt }}"/>
+                <h4 class="tp_heading-group__heading">{{ node.field_works__tagline.value }}</h4>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="tp_template" role="main">
+        <div class="tp_template__section tp_case-study__project-information">
+            <div class="tp_surface">
+                <div class="tp_surface__section">
+                    <div class="tp_grid-item--7">
+                        <h4 class="tp_case-study__project-header">The Project</h4>
+                        <div class="tp_case-study__project-description">
+                            {{ node.field_work__project_description.value|raw }}
+                        </div>
+                    </div>
+
+                    <div class="tp_grid-item--4 col-sm-offset-1">
+                        <h4 class="tp_case-study__services-header">Services</h4>
+
+                        {% if node.field_work__services|length %}
+                            <ul class="tp_case-study__services-list">
+                            {% for key, item in node.field_work__services %}
+                                <li class="tp_case-study__services-list-item">
+                                    <a class="tp_case-study__services-list-item-link" href="/case-studies/service-type/{{item.entity.tid.value}}">
+                                        {{ item.entity.label }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if node.field_work__project_image.0 %}
+            <div class="tp_template__section tp_case-study__image-carousel">
+                <div class="tp_case-study__slick">
+
+                {% for key, item in node.field_work__project_image %}
+                    <div>
+                        <img src="{{ file_url(item.entity.fileuri) }} " alt="{{ item.alt }}">
+                    </div>
+                {% endfor %}
+
+                </div>
+            </div>
+        {% endif %}
+
+        {% if node.field_work__success_points.0 %}
+            <div class="tp_template__section tp_case-study__success">
+                <div class="tp_surface">
+                    <div class="tp_surface__section">
+                        <h1 class="tp_case-study__success-header">How We Helped</h1>
+                        {% if node.field_work__success_points | length == 3 %}
+                            {% for key, item in node.field_work__success_points %}
+                                <div class="tp_grid-item--4 tp_case-study__success-item">
+                                    {{ item.value }}
+                                </div>
+                            {% endfor %}
+
+                        {% elseif node.field_work__success_points | length == 2 %}
+                            {% for key, item in node.field_work__success_points %}
+                                <div class="tp_grid-item--6 tp_case-study__success-item">
+                                    {{ item.value }}
+                                </div>
+                            {% endfor %}
+                        {% elseif node.field_work__success_points | length == 1 %}
+                            {% for key, item in node.field_work__success_points %}
+                                <div class="tp_grid-item--12 tp_case-study__success-item">
+                                    {{ item.value }}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+
+        <div class="tp_template__section tp_case-study__pager tp_pager">
+            <div class="tp_surface">
+                <div class="tp_surface__section">
+                    {{custom_entity_pager_insert('work_item')}}
+                </div>
+            </div>
+        </div>
+
+        <div class="tp_template__section tp_template__section--footer-banner">
+            {% if page.footer_banner %}
+              <div class="tp_footer-banner" role="contentinfo">
+                {{ page.footer_banner }}
+              </div>
+            {% endif %}
+        </div>
+
+        <div class="tp_template__section tp_template__section--footer">
+
+            {% if page.footer %}
+              <div class="tp_footer" role="contentinfo">
+                {{ page.footer }}
+              </div>
+            {% endif %}
+        </div>
+    </div>
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+</div>
+
+{# {{node.fieldname.value}} {{ page.masthead }} #}

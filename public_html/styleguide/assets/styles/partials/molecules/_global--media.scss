@@ -66,20 +66,57 @@
             max-width: 58.3333%;
             overflow: hidden;
             box-shadow: shadow(inactive, drop--inactive) color(drop--inactive);
+            background-color: color(seafoam--light);
+            transition: transition(slow);
+
+            img {
+                transition: transition(slow);
+                min-height: 115%;
+                min-width: 115%;
+                @include hv-center;
+                z-index: 2;
+                filter: brightness(125%);
+            }
         }
 
-        .tp-media--interest img {
-            min-height: 100%;
-            @include hv-center;
+
+        .tp-media--interest-filter {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: color(seafoam--bright);
+
+            opacity: .1;
+            z-index: 3;
+            transition: transition(slow);
         }
 
         .tp-media--body {
+            position: relative;
             padding-top: layout(layout--lg);
+            transition: transition(slow);
+        }
+
+        .tp-media--view-link {
+            position: relative;
+            top: layout(spacing--2xl);
+            z-index: -1;
+            opacity: 0;
+            margin-left: -3.5rem;
+            transition: 150ms ease-out;
+
+            a {
+                @extend %button--ghost-round;
+            }
         }
 
         .tp-media--client-logo {
-            @include clearfix;
             margin-bottom: layout(spacing--xl);
+
+            img {
+                max-height: 3.5rem;
+                width: inherit !important;
+            }
         }
 
         .tp-media--rule {
@@ -92,20 +129,34 @@
     }
 
     &--rtl {
-        margin-bottom: layout(layout--lg) * -1;
+        margin-bottom: layout(layout--md) * -1;
 
         .tp-media--interest {
             float: right;
             margin-right: 0;
+            margin-left: layout(spacing--lg);
         }
 
         .tp-media--body {
             padding-right: layout(spacing--md);
-            padding-top: layout(layout--sm);
+            padding-top: layout(layout--xs);
+            text-align: right;
+        }
+
+        .tp-media--view-link {
+            float: right;
+            margin-right: -3.5rem;
+            transition: 150ms ease-out;
         }
 
         .tp-media--client-logo {
             padding-top: layout(spacing--lg);
+            display: inline-block;
+            @include clearfix;
+        }
+
+        .tp-media--rule {
+            display: inline-block;
         }
 
         .tp-media--teaser-text {

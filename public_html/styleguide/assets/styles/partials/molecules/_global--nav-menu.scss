@@ -3,9 +3,11 @@
 
     &__item {
         margin-left: layout(spacing--xs);
+        transition: transition(base);
 
         & a {
             @extend %link--nav;
+            transition: transition(base);
         }
     }
 

@@ -1,7 +1,82 @@
 .tp-case-studies {
 
+    .tp-media--work {
+        transition: transition(slow);
+
+        &:hover {
+            .tp-media--interest {
+                transition: transition(slow);
+                box-shadow: shadow(active, drop--active) color(drop--active);
+            }
+
+            .tp-media--interest-filter {
+                transition: transition(slow);
+                opacity: 0;
+            }
+
+            .tp-media--interest img {
+                filter: brightness(110%);
+            }
+        }
+    }
+
     .tp-media--work:nth-child(odd) {
         @extend .tp-media--rtl;
+        z-index: 1;
+
+        .tp-media--body {
+            position: relative;
+            transition: transition(slow);
+            right: 0;
+        }
+
+        .tp-media--teaser-text {
+            padding-left: 4rem;
+        }
+
+        &:hover {
+            .tp-media--body {
+                position: relative;
+                right: 4rem;
+                transition: transition(slow);
+            }
+
+            .tp-media--view-link {
+                display: inline-block;
+                opacity: 1;
+                transition: 350ms ease-in;
+                z-index: 1;
+            }
+        }
     }
-    
+
+    .tp-media--work:nth-child(even) {
+        z-index: 2;
+
+        .tp-media--body {
+            left: 0;
+            position: relative;
+            transition: transition(slow);
+        }
+
+        .tp-media--teaser-text {
+            padding-right: 4rem;
+        }
+
+        &:hover {
+            .tp-media--body {
+                position: relative;
+                left: 4rem;
+                transition: transition(slow);
+            }
+
+            .tp-media--view-link {
+                display: inline-block;
+                opacity: 1;
+                transition: 350ms ease-in;
+                z-index: 1;
+            }
+        }
+    }
+
 }

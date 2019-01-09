@@ -1,0 +1,43 @@
+<div class="tp_stage">
+
+    <div class="tp_header" role="banner">
+      {{ page.header }}
+    </div>
+
+    <div class="tp_template tp_template--masthead">
+        <div class="tp_template__section">
+            <div class="tp_masthead tp_masthead--default">
+                <img class="tp_masthead__image" src="{{ file_url(node.field_page__masthead_bg_image.entity.fileuri) }}" alt="{{ node.field_page__masthead_bg_image.alt }}" />
+                <h1 class="tp_masthead__title">{{ node.field_page__masthead_title.value }}</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="tp_template" role="main">
+        <div class="tp_template__section">
+            <div class="tp_surface">
+                <div class="tp_surface__section">
+                  {{ page.content }}
+                </div>
+            </div>
+        </div>
+
+        <div class="tp_template__section tp_template__section--footer-banner">
+            {% if page.footer_banner %}
+              <div class="tp_footer-banner" role="contentinfo">
+                {{ page.footer_banner }}
+              </div>
+            {% endif %}
+        </div>
+
+        <div class="tp_template__section tp_template__section--footer">
+
+            {% if page.footer %}
+              <div class="tp_footer" role="contentinfo">
+                {{ page.footer }}
+              </div>
+            {% endif %}
+        </div>
+    </div>
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+</div>

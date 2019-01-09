@@ -6,9 +6,23 @@
         padding-top: $nav-height * 1.5;
     }
 
+    &--masthead {
+        margin-top: 0;
+        padding-top: 0;
+
+        .#{$pre}template__section {
+            padding-bottom: 0;
+        }
+    }
+
     &__section {
     	@include make-row;
     	position: relative;
     	padding: 0 0 6rem 0;
+    }
+
+    .#{$pre}template__section--footer,
+    .#{$pre}template__section--footer-banner {
+        padding-bottom: 0;
     }
 }

@@ -1,0 +1,16 @@
+.#{$pre}client-roster {
+    position: relative;
+    text-align: center;
+    margin-top: layout(layout--lg);
+
+    &__heading {
+        text-align: center;
+        @include responsive-type(fs--4, display);
+        text-transform: uppercase;
+        margin-bottom: layout(spacing--2xl);
+    }
+
+    &__image {
+        display: inline-block;
+    }
+}

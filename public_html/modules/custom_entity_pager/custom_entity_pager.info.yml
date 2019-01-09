@@ -1,0 +1,11 @@
+name: 'Custom entity pager'
+description: 'Custom entity pager'
+package: 'Drauta'
+type: module
+# core: '8.x'
+
+# Information added by Drupal.org packaging script on 2018-12-05
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'custom_entity_pager'
+datestamp: 1544006303

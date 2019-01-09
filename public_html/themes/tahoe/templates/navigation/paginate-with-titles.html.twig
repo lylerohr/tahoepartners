@@ -1,0 +1,38 @@
+<h3 class="tp_pager__heading">More Case Studies</h3>
+
+{% if element['prev'] is not null %}
+	<div class="tp_grid-item--4 col-sm-offset-1 tp_pager__item tp_pager__item--prev">
+		<a class="tp_pager__link tp_pager__link--prev" href="{{ path('entity.node.canonical', {'node': element.prev.nid }) }}">
+			<span class="fa fa-angle-left"></span> {{ element.prev.title }}
+		</a>
+	</div>
+	{% else %}
+	<div class="tp_grid-item--4 col-sm-offset-1 tp_pager__item tp_pager__item----next">
+		<a class="tp_pager__link tp_pager__link--prev" href="/case-studies">
+			Back to All
+		</a>
+	</div>
+{% endif %}
+
+<div class="tp_grid-item--2 tp_case-study__pager-icon">
+	<img class="tp_case-study__pager-icon-image" src="/themes/tahoe/images/tahoe-icon--seafoam-black.png" alt="">
+</div>
+
+{% if element['inner_text'] is not null %}
+	<p>{{ element['inner_text'] }}</p>
+{% endif %}
+
+{% if element['next'] is not null %}
+	<div class="tp_grid-item--4 tp_pager__item tp_pager__item----next">
+		<a class="tp_pager__link tp_pager__link--next" href="{{ path('entity.node.canonical', {'node': element.next.nid }) }}">
+			{{ element.next.title }} <span class="fa fa-angle-right"></span>
+		</a>
+	</div>
+	{% else %}
+		<div class="tp_grid-item--4 tp_pager__item tp_pager__item----next">
+			<a class="tp_pager__link tp_pager__link--next" href="/case-studies">
+				Back to All
+			</a>
+		</div>
+
+{% endif %}

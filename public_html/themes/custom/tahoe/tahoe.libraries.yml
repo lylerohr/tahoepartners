@@ -1,4 +1,0 @@
-global-css:
-    css:
-        theme:
-            styles/app.css: {}

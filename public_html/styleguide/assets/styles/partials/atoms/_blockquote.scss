@@ -18,6 +18,10 @@
     }
 
     &--reverse {
-        color: color(white);
+
+        .#{$pre}blockquote__quote {
+            color: color(white);
+        }
+
     }
 }

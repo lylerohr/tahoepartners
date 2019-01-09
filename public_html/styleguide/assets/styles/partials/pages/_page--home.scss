@@ -1,0 +1,78 @@
+.tp_home {
+    .tp_main-content {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    &__transformation {
+        padding-bottom: 0 !important;
+        z-index: 2;
+
+        .tp_offset {
+            padding-top: 0;
+        }
+
+        .tp_offset__section {
+            position: relative;
+            top: layout(layout--lg);
+
+        }
+
+        .tp_offset__surface-section {
+            padding-top: layout(layout--sm) !important;
+            padding-bottom: layout(layout--sm) !important;
+        }
+
+        .tp_card {
+
+            &__supersub {
+                @include responsive-type(fs--3, display);
+                color: color(gray--light);
+                text-transform: uppercase;
+                position: relative;
+                top: 1rem;
+            }
+
+            &__superheading {
+                @include responsive-type(fs--1, display);
+                color: color(gray--extra-light);
+                text-transform: uppercase;
+                margin-bottom: layout(spacing--xs);
+            }
+
+            &__heading {
+                text-transform: none;
+                color: color(gray--light);
+            }
+
+            &__copy {
+                @include responsive-type(fs--9, text);
+            }
+        }
+    }
+
+    &__quote {
+        padding-top: layout(layout--3xl) !important;
+        background-color: color(black);
+        background-image: url(/themes/tahoe/images/tahoe-partners--car-bg.png);
+        background-position: left center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    &__bottom-content {
+        padding-bottom: 0 !important;
+
+        .tp_offset {
+            background-image: url(/themes/tahoe/images/tahoe-partners--home-bottom-bg.png);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+        }
+    }
+
+    .tp_offset--6--blue-dark--reverse {
+        margin-top: -20rem;
+    }
+
+}

@@ -1,0 +1,44 @@
+.#{$pre}pager {
+
+    &__heading {
+        text-align: center;
+        @include responsive-type(fs--6, display);
+        margin-bottom: layout(spacing--3xl);
+        text-transform: uppercase;
+        color: color(seafoam--light);
+    }
+
+    &__item {
+        min-height: 132px;
+        background-color: color(gray);
+    }
+
+    &__item--prev {
+
+    }
+
+    &__item--prev {
+
+    }
+
+    &__link {
+        text-align: center;
+        @include responsive-type(fs--6, display);
+        color: color(gray--extra-light);
+        font-family: font-family(display);
+        font-weight: bold;
+        @extend %link;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    &__link--prev {
+        //text-align: right;
+        line-height: 123px;
+    }
+
+    &__link--next {
+        //text-align: left;
+        line-height: 123px;
+    }
+}

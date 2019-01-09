@@ -1,0 +1,109 @@
+.#{$pre}case-study {
+
+    .#{$pre}header {
+
+        .tp_nav-menu__item a {
+            color: color(gray--extra-light);
+
+            &:hover {
+                border-bottom-color: color(gray--extra-light);
+            }
+        }
+    }
+
+    &__project-information {
+
+    }
+
+    &__project-header {
+        text-transform: uppercase;
+        margin-bottom: layout(spacing--md);
+    }
+
+    &__project-description {
+        p {
+            @extend %text;
+        }
+
+        ul {
+            @extend .tp_list--bulleted;
+        }
+
+        ol {
+            @extend .tp_list--numbered;
+        }
+    }
+
+    &__services-header {
+        text-transform: uppercase;
+        margin-bottom: layout(spacing--md);
+    }
+
+    &__services-list {
+
+    }
+
+    &__services-list-item {
+
+    }
+
+    &__services-list-item-link {
+        @extend %link;
+        font-family: font-family(display);
+        @include responsive-type(fs--12, text);
+    }
+
+    &__image-carousel {
+        margin-bottom: layout(layout--sm) * -1;
+        position: relative;
+        z-index: 3;
+        padding-bottom: 0 !important;
+
+        .#{$pre}case-study__slick {
+
+            .slick-slide {
+                padding: 0 1rem;
+                outline: none;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    &__success {
+        position: relative;
+        z-index: 2;
+        background-color: color(blue--dark);
+        padding-top: layout(layout--lg) !important;
+    }
+
+    &__success-header {
+        text-align: center;
+        text-transform: uppercase;
+        color: color(gray--extra-light);
+        margin-bottom: layout(spacing--xl);
+    }
+
+    &__success-item {
+        text-align: center;
+        color: color(gray--extra-light);
+        font-weight: 100;
+        @include responsive-type(fs--8, display);
+    }
+
+    &__pager {
+        padding-top: layout(layout--md) !important;
+    }
+
+    &__pager-icon {
+        position: relative;
+        text-align: center;
+    }
+
+    &__pager-icon-image {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,15 @@
+.tp_page-intro {
+    @include make-row;
+    margin-bottom: layout(layout--md);
+
+    &__section {
+        @include make-sm-column(8);
+        @include make-sm-column-offset(2);
+    }
+
+    &__heading {
+        @include responsive-type(fs--4, display);
+        text-transform: uppercase;
+        margin-bottom: layout(spacing--lg);
+    }
+}

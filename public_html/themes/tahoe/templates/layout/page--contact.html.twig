@@ -1,0 +1,45 @@
+<div class="tp_stage">
+
+    <div class="tp_header" role="banner">
+      {{ page.header }}
+    </div>
+
+    <div class="tp_masthead tp_masthead--feature">
+        <img class="tp_masthead__image" src="/themes/tahoe/images/masthead--contact.png" alt="">
+        <div class="tp_masthead__title tp_heading-group tp_heading-group--feature">
+            <h3 class="tp_heading-group__heading">Contact</h3>
+            <h4 class="tp_heading-group__subheading">This is how you get in touch with us using the internet. Hooray for Tim Burners-Lee!</h4>
+        </div>
+    </div>
+
+    <div class="tp_template" role="main">
+        <div class="tp_template__section">
+
+            <div class="tp_surface">
+                <div class="tp_surface__section">
+                  {{ page.content }}
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tp_template__section tp_template__section--footer-banner">
+            {% if page.footer_banner %}
+              <div class="tp_footer-banner" role="contentinfo">
+                {{ page.footer_banner }}
+              </div>
+            {% endif %}
+        </div>
+
+
+        <div class="tp_template__section tp_template__section--footer">
+
+            {% if page.footer %}
+              <div class="tp_footer" role="contentinfo">
+                {{ page.footer }}
+              </div>
+            {% endif %}
+        </div>
+    </div>
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+</div>

@@ -1,0 +1,23 @@
+.#{$pre}contact-banner {
+    padding: layout(layout--md) 0;
+    background-image: url(/themes/tahoe/images/tahoe-footer-banner-bg.png);
+    background-size: cover;
+    background-position: center center;
+
+    &__heading {
+        @include responsive-type(fs--1, display);
+        color: color(seafoam--bright);
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__subheading {
+        @include responsive-type(fs--6, display);
+        color: color(gray--extra-light);
+        margin-bottom: layout(spacing--lg);
+    }
+
+    &__button {
+        @extend %button;
+    }
+}
