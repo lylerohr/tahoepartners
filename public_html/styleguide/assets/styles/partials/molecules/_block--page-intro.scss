@@ -1,6 +1,5 @@
 .tp_page-intro {
     @include make-row;
-    margin-bottom: layout(layout--md);
 
     &__section {
         @include make-sm-column(8);

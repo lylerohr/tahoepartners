@@ -1,0 +1,25 @@
+<div {{ attributes }}>
+    {% block content %}
+
+        <div class="tp_offset-section tp_feature-list">
+            <div class="tp_offset tp_offset--feature-list tp_offset--vertical--xl"> <!-- f container -->
+                <div class="tp_offset__section"><!-- row -->
+                    <div class="tp_offset__surface">
+                        <div class="col-md-10 col-md-offset-2">
+                            <h5 class="tp_feature-list__heading">{{content.field_feature_list__heading}}</h5>
+
+                            <ul class="tp_list tp_list--blockquote">
+                                {% for item in content.field_feature_list__list_item['#items'] %}
+                                    <li class="tp_list__item">
+                                        {{item.value}}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div> <!-- eo surface -->
+                </div> <!-- eo row section -->
+            </div>
+        </div>
+
+    {% endblock %}
+</div>

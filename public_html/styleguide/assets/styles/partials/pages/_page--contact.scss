@@ -1,0 +1,18 @@
+.tp_page--contact {
+
+    input[type="text"] {
+        @extend %input;
+    }
+
+    input[type="button"] {
+        @extend %button--ghost;
+    }
+
+    input#edit-submit {
+        @extend %button--default;
+    }
+
+    input#edit-preview {
+        @extend %button--link;
+    }
+}

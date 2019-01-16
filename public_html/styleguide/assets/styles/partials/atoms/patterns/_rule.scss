@@ -36,6 +36,10 @@ $rule-patterns: (
 				type-style: text,
 			),
 			width: 6.333rem,
+		    height: 1px,
+		    border: 0,
+		    border-top: 1px solid color(seafoam--dark),
+		    padding: 0,
 		),
 		"--heading-rule-reverse": (
 			pattern-config: (

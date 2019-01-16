@@ -36,7 +36,7 @@
     }
 
     &--home {
-        min-height: 65vh;
+        min-height: 85vh;
         padding-top: layout(layout--lg);
         position: relative;
 
@@ -52,7 +52,7 @@
         }
 
         .#{$pre}masthead__subhead {
-            @include responsive-type(fs--8, display);
+            @include responsive-type(fs--9, display);
             font-family: font-family(text);
             font-weight: 100;
         }
@@ -65,7 +65,7 @@
         .#{$pre}masthead__welcome-message {
             position: absolute;
             z-index: 2;
-            bottom: layout(spacing--xl);
+            bottom: layout(spacing--md);
             @include horizontal-center;
             @include responsive-type(fs--10, display);
             padding-right: layout(spacing--md);

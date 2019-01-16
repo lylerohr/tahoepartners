@@ -12,15 +12,13 @@
             </div>
         </div>
     </div>
-
     <div class="tp_template" role="main">
+
+    {% if page.content %}
         <div class="tp_template__section">
-            <div class="tp_surface">
-                <div class="tp_surface__section">
-                  {{ page.content }}
-                </div>
-            </div>
+            {{ page.content }}
         </div>
+    {% endif %}
 
         <div class="tp_template__section tp_template__section--footer-banner">
             {% if page.footer_banner %}

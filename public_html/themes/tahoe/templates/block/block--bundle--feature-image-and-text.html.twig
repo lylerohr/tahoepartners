@@ -1,0 +1,16 @@
+<div {{ attributes }}>
+    <div class="tp_surface">
+        <div class="tp_surface__section">
+            {% block content %}
+                <div class="tp_fit">
+                    <div class="tp_fit__image">
+                        {{ content.field_block_feature__image}}
+                    </div>
+                    <div class="tp_fit__content">
+                        {{ content.body }}
+                    </div>
+                </div>
+            {% endblock %}
+        </div>
+    </div>
+</div>

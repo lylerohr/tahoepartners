@@ -1,7 +1,5 @@
-hr {
+hr,
+.tp_rule {
 	@extend %rule;
-
-	&--heading-rule {
-		@extend %rule--heading-rule;
-	}
+	@extend %rule--heading-rule;
 }

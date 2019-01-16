@@ -1,0 +1,22 @@
+<div class="tp_offset-cta">
+    <div {{ attributes }}>
+        {% block content %}
+        <div class="tp_offset-cta__row">
+            <div class="tp_offset-cta__content col-sm-6">
+                <h4 class="tp_offset-cta__heading">{{ content.field_offset_cta__heading }}</h4>
+                <div class="tp_offset-cta__body">
+                    {{ content.field_offset_image__body }}
+                </div>
+                <a class="tp_offset-cta__button" href="{{ content.field_offset_cta__link.0["#url"] }}">
+                    {{ content.field_offset_cta__link.0["#title"] }}
+                </a>
+            </div>
+            <div class="col-sm-6 tp_offset-cta__image-container">
+                <div class="tp_offset-cta__image">
+                    {{ content.field_offset_cta__image }}
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </div>
+</div>

@@ -1,0 +1,1197 @@
+$col6: 50%;
+$col7: 58.2222%;
+$col8: 66.3333%;
+$col9: 75%;
+$col10: 82.4444%;
+$col11: 90.6666%;
+
+.tp_offset-section {
+    position: relative;
+
+    &--solutions {
+        .tp_offset {
+            position: relative;
+        }
+
+        .tp_offset--left {
+            background-size: cover;
+            background-position: bottom center;
+
+            .tp_offset__section {
+                background-color: color(blue--dark);
+
+                @include respond-to(desktop) {
+                    background-color: color(clear);
+                    background-image: linear-gradient(90deg, color(blue--dark) 35%, transparent 0%);
+
+                    .tp_offset__surface {
+                        background-image: linear-gradient(90deg, color(blue--dark) $col7, transparent 0%);
+                    }
+                }
+            }
+        }
+
+        .tp_offset--right {
+            background-size: cover;
+            background-position: bottom center;
+
+            .tp_offset__section {
+                background-color: color(red);
+
+                @include respond-to(desktop) {
+                    background-color: color(clear);
+                    background-image: linear-gradient(-90deg, color(red) 35%, transparent 0%);
+
+                    .tp_offset__surface {
+                        background-image: linear-gradient(-90deg, color(red) $col6, transparent 0%);
+                    }
+                }
+            }
+        }
+    }
+
+    &--block {
+        margin-bottom: 0;
+    }
+}
+
+.tp_offset {
+    @extend .container-fluid;
+
+    &__section {
+    	@include make-row;
+    	position: relative;
+    }
+
+    &__surface {
+        @extend .container;
+
+        &-section {
+            @include make-row;
+            position: relative;
+        }
+    }
+
+    &:first-child {
+        padding-top: layout(layout--md);
+        margin-top: 0;
+    }
+
+    &:last-child{
+        padding-bottom: layout(layout--md);
+    }
+
+    .tp_offset__surface-section {
+        padding: layout(layout--xs) 0;
+    }
+
+    .tp_offset__surface-section:first-of-type {
+        padding-top: layout(layout--md);
+    }
+
+    .tp_offset__surface-section:last-of-type {
+        padding-bottom: layout(layout--md);
+    }
+
+    &--vertical--base {
+        @include respond-to(desktop) {
+            margin-top: layout(layout--md) * -1;
+        }
+    }
+
+    &--vertical--sm {
+        @include respond-to(desktop) {
+            margin-top: -30%;
+        }
+    }
+
+    &--vertical--md {
+        @include respond-to(desktop) {
+            margin-top: -50%;
+        }
+    }
+
+    &--vertical--lg {
+        @include respond-to(desktop) {
+            margin-top: -60%;
+        }
+    }
+
+    &--vertical--xl {
+        @include respond-to(desktop) {
+            margin-top: -80%;
+        }
+    }
+
+}
+
+// SEAFOAM LIGHT
+.tp_offset--6--seafoam-bright {
+    background-image: url(https://images.unsplash.com/photo-1545095572-9bfd2666d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(seafoam--bright);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(seafoam--bright) $col6, transparent 0%);
+            }
+        }
+    }
+}
+
+.tp_offset--7--seafoam-bright {
+    background-image: url(https://images.unsplash.com/photo-1545095572-9bfd2666d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(seafoam--bright);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(seafoam--bright) $col7, transparent 0%);
+            }
+        }
+    }
+}
+
+.tp_offset--8--seafoam-bright {
+
+    background-image: url(https://images.unsplash.com/photo-1545095572-9bfd2666d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(seafoam--bright);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(seafoam--bright) $col8, transparent 0%);
+            }
+        }
+    }
+}
+
+.tp_offset--10--digital-transformation {
+    padding-bottom: 0 !important;
+    background-image: url(/themes/tahoe/images/tahoe-partners--digital-transformation-bg.png);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(mauve);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(mauve) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(mauve) $col10, transparent 0%);
+            }
+        }
+    }
+}
+
+.tp_offset--10--seafoam-bright {
+    background-image: url(https://images.unsplash.com/photo-1545095572-9bfd2666d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(seafoam--bright);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(seafoam--bright) $col10, transparent 0%);
+            }
+        }
+    }
+}
+
+.tp_offset--11--seafoam-bright {
+    background-image: url(https://images.unsplash.com/photo-1545095572-9bfd2666d3e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(seafoam--bright);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(90deg, color(seafoam--bright) $col11, transparent 0%);
+            }
+        }
+    }
+}
+
+
+
+.tp_offset--start,
+.tp_offset--left {
+    background-size: cover;
+    background-position: bottom center;
+
+    &--black {
+
+        .tp_offset__section {
+            background-color: color(black);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(black) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(black) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--gray {
+
+        .tp_offset__section {
+            background-color: color(gray);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(gray) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(gray) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--gray-light {
+
+        .tp_offset__section {
+            background-color: color(gray--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(gray--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(gray--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue {
+
+        .tp_offset__section {
+            background-color: color(blue);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(blue) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(blue) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue-dark {
+
+        .tp_offset__section {
+            background-color: color(blue--dark);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(blue--dark) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(blue--dark) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue-light {
+
+        .tp_offset__section {
+            background-color: color(blue--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(blue--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(blue--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam {
+
+        .tp_offset__section {
+            background-color: color(seafoam);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(seafoam) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(seafoam) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-bright {
+
+        .tp_offset__section {
+            background-color: color(seafoam--bright);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(black);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(black);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(black);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(seafoam--bright) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(seafoam--bright) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-light {
+
+        .tp_offset__section {
+            background-color: color(seafoam--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(black);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(black);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(black);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(seafoam--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(seafoam--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-black {
+
+        .tp_offset__section {
+            background-color: color(seafoam--black);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(seafoam--black) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(seafoam--black) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--mauve {
+
+        .tp_offset__section {
+            background-color: color(mauve);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(mauve) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(mauve) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--red {
+
+        .tp_offset__section {
+            background-color: color(red);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(90deg, color(red) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(90deg, color(red) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+}
+
+.tp_offset--right {
+    background-size: cover;
+    background-position: bottom center;
+
+    &--black {
+
+        .tp_offset__section {
+            background-color: color(black);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(black) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(black) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--gray {
+
+        .tp_offset__section {
+            background-color: color(gray);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(gray) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(gray) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--gray-light {
+
+        .tp_offset__section {
+            background-color: color(gray--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(gray--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(gray--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue {
+
+        .tp_offset__section {
+            background-color: color(blue);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(blue) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(blue) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue-dark {
+
+        .tp_offset__section {
+            background-color: color(blue--dark);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(blue--dark) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(blue--dark) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--blue-light {
+
+        .tp_offset__section {
+            background-color: color(blue--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(blue--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(blue--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam {
+
+        .tp_offset__section {
+            background-color: color(seafoam);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(seafoam) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(seafoam) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-bright {
+
+        .tp_offset__section {
+            background-color: color(seafoam--bright);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(black);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(Black);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(black);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(seafoam--bright) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(seafoam--bright) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-light {
+
+        .tp_offset__section {
+            background-color: color(seafoam--light);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(black);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(black);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(black);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(seafoam--light) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(seafoam--light) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--seafoam-black {
+
+        .tp_offset__section {
+            background-color: color(seafoam--black);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(seafoam--black) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(seafoam--black) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--mauve {
+
+        .tp_offset__section {
+            background-color: color(mauve);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(mauve) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(mauve) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+
+    &--red {
+
+        .tp_offset__section {
+            background-color: color(red);
+
+            .tp_card__heading {
+                color: color(white);
+                text-transform: uppercase;
+                @include responsive-type(fs--0, display);
+            }
+
+            .tp_card__subheading {
+                color: color(gray--light);
+                text-transform: uppercase;
+                @include responsive-type(fs--5, display);
+            }
+
+            .tp_card__rule {
+                border-color: color(gray--extra-light);
+                margin-bottom: layout(spacing--sm);
+            }
+
+            .tp_card__body p {
+                color: color(gray--extra-light);
+            }
+
+            @include respond-to(desktop) {
+                background-color: color(clear);
+                background-image: linear-gradient(-90deg, color(red) 35%, transparent 0%);
+
+                .tp_offset__surface {
+                    background-image: linear-gradient(-90deg, color(red) $col9, transparent 0%);
+                }
+            }
+        }
+    }
+}
+
+.tp_offset--6--blue-dark--reverse {
+
+    background-image: url(https://images.unsplash.com/photo-1480114440414-43a37cc4472f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    .tp_offset__section {
+        background-color: color(blue--dark);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(-90deg, color(blue--dark) 35%, transparent 0%);
+
+            .tp_offset__surface {
+                background-image: linear-gradient(-90deg, color(blue--dark) $col6, transparent 0%);
+            }
+        }
+    }
+
+}
+
+.#{$pre}offset--feature-list {
+
+    background-image: url(https://images.unsplash.com/photo-1480114440414-43a37cc4472f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80);
+    background-size: cover;
+    background-position: bottom center;
+
+    @include respond-to(desktop) {
+        padding-top: 0 !important;
+    }
+
+    .tp_offset__surface {
+        padding-top: layout(layout--md);
+        padding-bottom: layout(layout--md);
+    }
+
+    .tp_offset__section {
+        background-color: color(blue--dark);
+
+        @include respond-to(desktop) {
+            background-color: color(clear);
+            background-image: linear-gradient(-90deg, color(blue--dark) 35%, transparent 0%);
+            margin-top: -6rem;
+
+            .tp_offset__surface {
+                padding-top: layout(layout--md);
+                padding-bottom: layout(layout--md);
+                background-image: linear-gradient(-90deg, color(blue--dark) $col11, transparent 0%);
+            }
+        }
+    }
+
+}

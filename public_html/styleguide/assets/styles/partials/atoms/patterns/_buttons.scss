@@ -36,11 +36,11 @@ $button-patterns: (
 				size: fs--base,
 				type-style: text,
 			),
-			box-shadow: shadow(inactive, color(drop--inactive)),
+			box-shadow: 0px 2px 12px 0px color(drop--inactive),
 			":hover": (
 				background-color: color(seafoam--bright) !important,
 				text-decoration: none !important,
-				box-shadow: shadow(active, color(drop--active)) !important,
+				box-shadow: 0px 4px 12px 0px color(drop--active) !important,
 				border: border(thin, transparent),
 				color: color(seafoam--black),
 			),
@@ -48,10 +48,9 @@ $button-patterns: (
 				color: color(seafoam--black),
 				outline: none,
 				border: border(thin, transparent),
-				box-shadow: shadow(depressed, color(drop--active)) !important,
+				box-shadow: 0px 1px 8px 0px color(drop--active) !important,
 				top: layout(spacing--3xs),
 				transition: transition(fast),
-				transform: rotate(-2deg),
 			),
 		),
 		"--round": (
@@ -85,6 +84,13 @@ $button-patterns: (
 				box-shadow: shadow(depressed, color(drop--active)) !important,
 				top: layout(spacing--3xs),
 				transition: transition(fast),
+			),
+			"::after": (
+				font-family: "tahoe-icons",
+				content: "'#{\e908}'",
+				position: relative,
+				top: 1px,
+				right: 1px,
 			),
 		),
 		"--ghost": (
@@ -175,6 +181,13 @@ $button-patterns: (
 				top: layout(spacing--3xs),
 				transition: transition(fast),
 			),
+			"::after": (
+				font-family: "tahoe-icons",
+				content: "'#{\e90a}'",
+				position: relative,
+				top: 1px,
+				right: 1px,
+			),
 		),
 		"--ghost-round-reverse": (
 			pattern-config: (
@@ -207,6 +220,13 @@ $button-patterns: (
 				box-shadow: shadow(depressed, color(drop--active)) !important,
 				top: layout(spacing--3xs),
 				transition: transition(fast),
+			),
+			"::after": (
+				font-family: "tahoe-icons",
+				content: "'#{\e90a}'",
+				position: relative,
+				top: 1px,
+				right: 1px,
 			),
 		),
 		"--link": (

@@ -42,3 +42,7 @@ h6,
 .#{$pre}heading--6 {
 	@extend %heading--small;
 }
+
+.tp_feature-list__heading {
+	color: color(gray--light);
+}

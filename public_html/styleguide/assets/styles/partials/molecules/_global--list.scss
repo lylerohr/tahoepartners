@@ -24,27 +24,29 @@ ul,
     }
 
     &--blockquote {
+        padding: 0;
+        counter-reset: big-counter;
+        list-style: none;
+        margin: 0 0 0 0;
 
-        .#{$pre}list__list-item {
-
-        }
-
-        .#{$pre}list__big-bullet {
-            display: inline-block;
-            width: 4rem;
-            text-align: right;
-            @include responsive-type(fs--1, display);
-            @extend .tp_color--text-seafoam--bright;
-        }
-
-        .#{$pre}list__copy {
-            //@extend .tp_color--text-white;
-            display: inline-block;
-            margin-left: layout(spacing--sm);
+        .#{$pre}list__item {
+            counter-increment: big-counter;
+            position: relative;
             @include responsive-type(fs--7, display);
-            @extend .tp_color--text-seafoam--black;
+            color: color(gray--extra-light);
             font-family: font-family(display);
             font-weight: 700;
+            display: block;
+            text-indent: -4rem;
+            margin-left: 4rem;
+
+            &::before {
+                content: counter(big-counter) ". ";
+                color: color(seafoam--bright);
+                font-family: font-family(display);
+                @include responsive-type(fs--3, display);
+                font-weight: bold;
+            }
         }
     }
 }

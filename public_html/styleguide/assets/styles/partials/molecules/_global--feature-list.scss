@@ -1,0 +1,9 @@
+.#{$pre}feature-list {
+    padding-bottom: layout(layout--lg);
+    margin-top: layout(layout--lg);
+
+    &__heading {
+        font-weight: 600;
+        margin-bottom: layout(spacing--md);
+    }
+}

@@ -1,0 +1,62 @@
+<div{{ attributes }}>
+  {% block content %}
+    <div class="tp_solutions-block">
+        <h3 class="tp_solutions-block__subheading">{{ content.field_services__subheading }}</h3>
+        <h1 class="tp_solutions-block__heading">{{ content.field_services__heading }}</h1>
+
+        {% set numService = content.field_services__service['#items']|length %}
+        {% set left = (numService / 2)|round %}
+        {% set right = numService - left %}
+
+        <div class="tp_offset-section tp_offset-section--solutions">
+            <div class="tp_offset tp_offset--left"> <!-- f container -->
+                <div class="tp_offset__section"><!-- row -->
+                    <div class="tp_offset__surface ">
+                        {% for item in content.field_services__service['#items']|slice(0,left) %}
+                            <div class="tp_offset__surface-section">
+                                <div class="col-md-5">
+                                    <div class="tp_card tp_card--solution tp_card--rule tp_card--small tp_card--reverse">
+                                        <div class="tp_card__arrow">
+                                            <a class="icon tp_card__arrow-link"></a>
+                                        </div>
+                                        <div class="tp_card__content">
+                                            <h3 class="tp_card__heading">{{ item.getFieldCollectionItem().field_services__service_name.value }}</h3>
+                                            <hr class="tp_card__rule" />
+                                            <p class="tp_card__copy">{{ item.getFieldCollectionItem().field_services__service_desc_sh.value }}</p>
+                                            <p class="tp_card__long-copy">{{ item.getFieldCollectionItem().field_services__service_desc.value }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="tp_offset tp_offset--right tp_offset--vertical--xl"> <!-- f container -->
+                <div class="tp_offset__section"><!-- row -->
+                    <div class="tp_offset__surface">
+                        {% for item in content.field_services__service['#items']|slice(left,right) %}
+                            <div class="tp_offset__surface-section">
+                                <div class="col-md-5 col-md-offset-7">
+                                <div class="tp_card tp_card--solution tp_card--rule tp_card--small tp_card--reverse">
+                                    <div class="tp_card__arrow">
+                                        <a class="tp_card__arrow-link"></a>
+                                    </div>
+                                    <div class="tp_card__content">
+                                        <h3 class="tp_card__heading">{{ item.getFieldCollectionItem().field_services__service_name.value }}</h3>
+                                        <hr class="tp_card__rule" />
+                                        <p class="tp_card__copy">{{ item.getFieldCollectionItem().field_services__service_desc_sh.value }}</p>
+                                        <p class="tp_card__long-copy">{{ item.getFieldCollectionItem().field_services__service_desc.value }}</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  {% endblock %}
+</div>

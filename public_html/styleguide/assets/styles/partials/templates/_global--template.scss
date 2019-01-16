@@ -18,7 +18,7 @@
     &__section {
     	@include make-row;
     	position: relative;
-    	padding: 0 0 6rem 0;
+    	padding: 0;
     }
 
     .#{$pre}template__section--footer,

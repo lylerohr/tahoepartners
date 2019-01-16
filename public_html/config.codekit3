@@ -7,7 +7,7 @@
 		"uuidString": "23217CD9-AE83-4004-BF8A-B7416EC419DA"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.csslintrc": {
 		"cB": 0,
@@ -98717,6 +98717,275 @@
 		"oAP": "/modules/entity_pager/templates/entity-pager.html.twig",
 		"oF": 0
 		},
+	"/modules/field_collection/config/schema/field_collection.schema.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/config/schema/field_collection.schema.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/config/schema/field_collection.views.schema.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/config/schema/field_collection.views.schema.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.api.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.api.php",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.info.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.info.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.links.menu.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.links.menu.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.links.task.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.links.task.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.module": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.module",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.permissions.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.permissions.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.routing.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.routing.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.services.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.services.yml",
+		"oF": 0
+		},
+	"/modules/field_collection/field_collection.theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/modules/field_collection/field_collection.views.inc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/field_collection.views.inc",
+		"oF": 0
+		},
+	"/modules/field_collection/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/LICENSE.txt",
+		"oF": 0
+		},
+	"/modules/field_collection/README.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/README.txt",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Access/FieldCollectionItemHostAddOperationCheck.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Access/FieldCollectionItemHostAddOperationCheck.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Access/FieldCollectionItemHostOperationCheck.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Access/FieldCollectionItemHostOperationCheck.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Access/FieldCollectionItemHostRevisionsOperationCheck.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Access/FieldCollectionItemHostRevisionsOperationCheck.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Controller/FieldCollectionItemController.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Controller/FieldCollectionItemController.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Entity/FieldCollection.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Entity/FieldCollection.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Entity/FieldCollectionItem.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Entity/FieldCollectionItem.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionAccessControlHandler.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionAccessControlHandler.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionForm.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionForm.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionInterface.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionInterface.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionItemAccessControlHandler.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionItemAccessControlHandler.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionItemForm.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionItemForm.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionItemInterface.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionItemInterface.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/FieldCollectionListBuilder.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/FieldCollectionListBuilder.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Form/FieldCollectionItemDeleteForm.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Form/FieldCollectionItemDeleteForm.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionEditableFormatter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionEditableFormatter.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionItemsFormatter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionItemsFormatter.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionLinksFormatter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionLinksFormatter.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionListFormatter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldFormatter/FieldCollectionListFormatter.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldType/FieldCollection.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldType/FieldCollection.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/Field/FieldWidget/FieldCollectionEmbedWidget.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/Field/FieldWidget/FieldCollectionEmbedWidget.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Plugin/views/relationship/FieldCollectionHandlerRelationship.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Plugin/views/relationship/FieldCollectionHandlerRelationship.php",
+		"oF": 0
+		},
+	"/modules/field_collection/src/Tests/FieldCollectionBasicTestCase.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/src/Tests/FieldCollectionBasicTestCase.php",
+		"oF": 0
+		},
+	"/modules/field_collection/templates/field-collection-item.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/templates/field-collection-item.html.twig",
+		"oF": 0
+		},
+	"/modules/field_collection/tests/src/Kernel/DuplicateFieldCollectionTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/field_collection/tests/src/Kernel/DuplicateFieldCollectionTest.php",
+		"oF": 0
+		},
 	"/modules/fontawesome/composer.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -98919,6 +99188,292 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/modules/fontawesome/templates/fontawesomeicons.html.twig",
+		"oF": 0
+		},
+	"/modules/google_analytics/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/.eslintrc",
+		"oF": 0
+		},
+	"/modules/google_analytics/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/modules/google_analytics/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/modules/google_analytics/config/install/google_analytics.settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/config/install/google_analytics.settings.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/config/schema/google_analytics.schema.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/config/schema/google_analytics.schema.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.info.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.info.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.install": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.install",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.libraries.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.libraries.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.links.menu.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.links.menu.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.links.task.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.links.task.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.module": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.module",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.permissions.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.permissions.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.routing.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.routing.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/google_analytics.tokens.inc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/google_analytics.tokens.inc",
+		"oF": 0
+		},
+	"/modules/google_analytics/js/google_analytics.admin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/js/google_analytics.admin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/modules/google_analytics/js/google_analytics.debug.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/js/google_analytics.debug-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/modules/google_analytics/js/google_analytics.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/js/google_analytics-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/modules/google_analytics/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/LICENSE.txt",
+		"oF": 0
+		},
+	"/modules/google_analytics/migration_templates/d6_google_analytics_settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/migration_templates/d6_google_analytics_settings.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/migration_templates/d6_google_analytics_user_settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/migration_templates/d6_google_analytics_user_settings.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/migration_templates/d7_google_analytics_settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/migration_templates/d7_google_analytics_settings.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/migration_templates/d7_google_analytics_user_settings.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/migration_templates/d7_google_analytics_user_settings.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/README.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/README.txt",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Component/Render/GoogleAnalyticsJavaScriptSnippet.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Component/Render/GoogleAnalyticsJavaScriptSnippet.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Form/GoogleAnalyticsAdminSettingsForm.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Form/GoogleAnalyticsAdminSettingsForm.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Plugin/migrate/process/GoogleAnalyticsVisibilityPages.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Plugin/migrate/process/GoogleAnalyticsVisibilityPages.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Plugin/migrate/process/GoogleAnalyticsVisibilityRoles.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Plugin/migrate/process/GoogleAnalyticsVisibilityRoles.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsBasicTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsBasicTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsCustomDimensionsAndMetricsTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsCustomDimensionsAndMetricsTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsCustomUrls.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsCustomUrls.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsJavaScriptTest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsJavaScriptTest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsPhpFilterTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsPhpFilterTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsRolesTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsRolesTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsSearchTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsSearchTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsStatusMessagesTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsStatusMessagesTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsUninstallTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsUninstallTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/src/Tests/GoogleAnalyticsUserFieldsTest.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/src/Tests/GoogleAnalyticsUserFieldsTest.php",
+		"oF": 0
+		},
+	"/modules/google_analytics/tests/modules/google_analytics_test/google_analytics_test.info.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/tests/modules/google_analytics_test/google_analytics_test.info.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/tests/modules/google_analytics_test/google_analytics_test.routing.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/tests/modules/google_analytics_test/google_analytics_test.routing.yml",
+		"oF": 0
+		},
+	"/modules/google_analytics/tests/modules/google_analytics_test/src/Controller/GoogleAnalyticsTestController.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/modules/google_analytics/tests/modules/google_analytics_test/src/Controller/GoogleAnalyticsTestController.php",
 		"oF": 0
 		},
 	"/modules/libraries/CHANGELOG.txt": {
@@ -101667,6 +102222,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/sites/default/files/2019-01/awesome-dog.png": {
+		"ft": 32768,
+		"iS": 555869,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/awesome-dog.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/blue-bg.png": {
+		"ft": 32768,
+		"iS": 37034,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/blue-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/glow-ball.png": {
+		"ft": 32768,
+		"iS": 2621918,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/glow-ball.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/glow-ball_0.png": {
+		"ft": 32768,
+		"iS": 2621918,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/glow-ball_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/kid-with-vr-setpng.png": {
+		"ft": 32768,
+		"iS": 1036804,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/kid-with-vr-setpng.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/sites/default/files/2019-01/masthead--blue.png": {
 		"ft": 32768,
 		"iS": 37034,
@@ -101711,11 +102321,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/sites/default/files/2019-01/ms-keyboard.png": {
+		"ft": 32768,
+		"iS": 2337898,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/ms-keyboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/phone-bg.png": {
+		"ft": 32768,
+		"iS": 4548504,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/phone-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/phone-bg_0.png": {
+		"ft": 32768,
+		"iS": 4548504,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/phone-bg_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/tahoe-partners--solutions-feature.png": {
+		"ft": 32768,
+		"iS": 1131367,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/tahoe-partners--solutions-feature.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/sites/default/files/2019-01/tahoe-partners__masthead--home.png": {
 		"ft": 32768,
 		"iS": 105645,
 		"oA": 0,
 		"oAP": "/sites/default/files/2019-01/tahoe-partners__masthead--home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/2019-01/tower-scaffolding.png": {
+		"ft": 32768,
+		"iS": 4370007,
+		"oA": 0,
+		"oAP": "/sites/default/files/2019-01/tower-scaffolding.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -101735,193 +102400,6 @@
 		"oA": 1,
 		"oAP": "/sites/default/files/config_iLIhUbr_MxOb0hIcO6YUbqVRv5xw4E0KnGrvaTepSvGIaMe-G16LqCSQkk8b9vEYotdwP-29kQ/sync/README.txt",
 		"oF": 1
-		},
-	"/sites/default/files/css/css_-lNPWza8zzSapu_szxtozhMkPMpG71NBRjh6efvuXNk.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_-lNPWza8zzSapu_szxtozhMkPMpG71NBRjh6efvuXNk-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_-lNPWza8zzSapu_szxtozhMkPMpG71NBRjh6efvuXNk.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_-lNPWza8zzSapu_szxtozhMkPMpG71NBRjh6efvuXNk.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_16PzSnwqzlCX1JnrOAgVca05V6ozg2pyF6EOWtL3FyU.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_16PzSnwqzlCX1JnrOAgVca05V6ozg2pyF6EOWtL3FyU-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_16PzSnwqzlCX1JnrOAgVca05V6ozg2pyF6EOWtL3FyU.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_16PzSnwqzlCX1JnrOAgVca05V6ozg2pyF6EOWtL3FyU.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_1v6INp2FJwK2Ju5SYzN9G20Pp145NXnWWoGnvE5izM0.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_1v6INp2FJwK2Ju5SYzN9G20Pp145NXnWWoGnvE5izM0-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_1v6INp2FJwK2Ju5SYzN9G20Pp145NXnWWoGnvE5izM0.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_1v6INp2FJwK2Ju5SYzN9G20Pp145NXnWWoGnvE5izM0.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_CCuc6vzTJBIcVJFmujU3A6bnUAJKAueH3Z1zOSkRJvQ.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_CCuc6vzTJBIcVJFmujU3A6bnUAJKAueH3Z1zOSkRJvQ-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_CCuc6vzTJBIcVJFmujU3A6bnUAJKAueH3Z1zOSkRJvQ.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_CCuc6vzTJBIcVJFmujU3A6bnUAJKAueH3Z1zOSkRJvQ.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_CmhlGhJutUmNv-0MUIY8H8mI58TFP1MfPj2d8mVCyaA.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_CmhlGhJutUmNv-0MUIY8H8mI58TFP1MfPj2d8mVCyaA-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_CmhlGhJutUmNv-0MUIY8H8mI58TFP1MfPj2d8mVCyaA.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_CmhlGhJutUmNv-0MUIY8H8mI58TFP1MfPj2d8mVCyaA.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_PXKyJUac5CjOsyl7xA6aCmq51JomRky41Sc9wSdnkNM.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_PXKyJUac5CjOsyl7xA6aCmq51JomRky41Sc9wSdnkNM-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_PXKyJUac5CjOsyl7xA6aCmq51JomRky41Sc9wSdnkNM.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_PXKyJUac5CjOsyl7xA6aCmq51JomRky41Sc9wSdnkNM.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_qZPmCrNmBPEdDliErO2qI0McrrCCxSPlI9_JMTtxS2s.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_qZPmCrNmBPEdDliErO2qI0McrrCCxSPlI9_JMTtxS2s-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_qZPmCrNmBPEdDliErO2qI0McrrCCxSPlI9_JMTtxS2s.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_qZPmCrNmBPEdDliErO2qI0McrrCCxSPlI9_JMTtxS2s.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_SEXQj0QJ7B4vdsG38dl-q3TxNPyCUH7vhuEm5TukzsI.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_SEXQj0QJ7B4vdsG38dl-q3TxNPyCUH7vhuEm5TukzsI-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_SEXQj0QJ7B4vdsG38dl-q3TxNPyCUH7vhuEm5TukzsI.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_SEXQj0QJ7B4vdsG38dl-q3TxNPyCUH7vhuEm5TukzsI.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_t8J4UhcqmpInSbliCjrHj8E9AWm_iRr7pfm5DIfJvuM.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_t8J4UhcqmpInSbliCjrHj8E9AWm_iRr7pfm5DIfJvuM-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_t8J4UhcqmpInSbliCjrHj8E9AWm_iRr7pfm5DIfJvuM.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_t8J4UhcqmpInSbliCjrHj8E9AWm_iRr7pfm5DIfJvuM.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_uK_fs8ldPy692YLa9QRDYSV5LbrIMdSudDApxgWbYvw.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_uK_fs8ldPy692YLa9QRDYSV5LbrIMdSudDApxgWbYvw-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_uK_fs8ldPy692YLa9QRDYSV5LbrIMdSudDApxgWbYvw.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_uK_fs8ldPy692YLa9QRDYSV5LbrIMdSudDApxgWbYvw.css.gz",
-		"oF": 0
-		},
-	"/sites/default/files/css/css_ZP8qHK6XORMndkGiUt7JpWdXafh5N7CkW--Vy6Lgo88.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_ZP8qHK6XORMndkGiUt7JpWdXafh5N7CkW--Vy6Lgo88-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/sites/default/files/css/css_ZP8qHK6XORMndkGiUt7JpWdXafh5N7CkW--Vy6Lgo88.css.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/css/css_ZP8qHK6XORMndkGiUt7JpWdXafh5N7CkW--Vy6Lgo88.css.gz",
-		"oF": 0
 		},
 	"/sites/default/files/default_images/masthead-bg-image.png": {
 		"ft": 32768,
@@ -101956,311 +102434,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/sites/default/files/js/js_1GAacR2926I5UhLPV-N9WiCjdNN-Phy41SweKK07MPQ.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/sites/default/files/inline-images/ms-gold-partner-logo.png": {
+		"ft": 32768,
+		"iS": 19930,
 		"oA": 0,
-		"oAP": "/sites/default/files/js/js_1GAacR2926I5UhLPV-N9WiCjdNN-Phy41SweKK07MPQ-min.js",
+		"oAP": "/sites/default/files/inline-images/ms-gold-partner-logo.png",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_1GAacR2926I5UhLPV-N9WiCjdNN-Phy41SweKK07MPQ.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_1GAacR2926I5UhLPV-N9WiCjdNN-Phy41SweKK07MPQ.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_90anUTD9IL96qCuTppA570biJ62Uej0FydhsSnYvSkc.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_90anUTD9IL96qCuTppA570biJ62Uej0FydhsSnYvSkc-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_90anUTD9IL96qCuTppA570biJ62Uej0FydhsSnYvSkc.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_90anUTD9IL96qCuTppA570biJ62Uej0FydhsSnYvSkc.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_cKar_coRNyFHB2KxCyaDRjWx627BpJ58whZmT3vzOQk.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_cKar_coRNyFHB2KxCyaDRjWx627BpJ58whZmT3vzOQk-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_cKar_coRNyFHB2KxCyaDRjWx627BpJ58whZmT3vzOQk.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_cKar_coRNyFHB2KxCyaDRjWx627BpJ58whZmT3vzOQk.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_eJjVHc_WN1SlBvBdAWoO99kv2cnDTi7u0yEDREXYIPk.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_eJjVHc_WN1SlBvBdAWoO99kv2cnDTi7u0yEDREXYIPk-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_eJjVHc_WN1SlBvBdAWoO99kv2cnDTi7u0yEDREXYIPk.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_eJjVHc_WN1SlBvBdAWoO99kv2cnDTi7u0yEDREXYIPk.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_jBpi6Ng9xbBp5ogJd-MZx0qn1uKGLYOcG_GscR5bkcI.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_jBpi6Ng9xbBp5ogJd-MZx0qn1uKGLYOcG_GscR5bkcI-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_jBpi6Ng9xbBp5ogJd-MZx0qn1uKGLYOcG_GscR5bkcI.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_jBpi6Ng9xbBp5ogJd-MZx0qn1uKGLYOcG_GscR5bkcI.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_kLJ21FT_5a5Kjj13DdrtziofwecxhRntJMa7VjH8zUY.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_kLJ21FT_5a5Kjj13DdrtziofwecxhRntJMa7VjH8zUY-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_kLJ21FT_5a5Kjj13DdrtziofwecxhRntJMa7VjH8zUY.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_kLJ21FT_5a5Kjj13DdrtziofwecxhRntJMa7VjH8zUY.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_m7vRHNqcQlb5lCadND1V-WrUPgFwrCp68K3GnDvV3mE.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_m7vRHNqcQlb5lCadND1V-WrUPgFwrCp68K3GnDvV3mE-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_m7vRHNqcQlb5lCadND1V-WrUPgFwrCp68K3GnDvV3mE.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_m7vRHNqcQlb5lCadND1V-WrUPgFwrCp68K3GnDvV3mE.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_OC93SoO9uS6K_3RKSy6ks3NrLxz8XCilt49jFegY7ZE.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_OC93SoO9uS6K_3RKSy6ks3NrLxz8XCilt49jFegY7ZE-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_OC93SoO9uS6K_3RKSy6ks3NrLxz8XCilt49jFegY7ZE.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_OC93SoO9uS6K_3RKSy6ks3NrLxz8XCilt49jFegY7ZE.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_oEtYAvQ6D9_7L3T1PCnDVkl2oVD1t2k0ZLqgtEwQZgc.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_oEtYAvQ6D9_7L3T1PCnDVkl2oVD1t2k0ZLqgtEwQZgc-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_oEtYAvQ6D9_7L3T1PCnDVkl2oVD1t2k0ZLqgtEwQZgc.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_oEtYAvQ6D9_7L3T1PCnDVkl2oVD1t2k0ZLqgtEwQZgc.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_okNuk5qHE4gnqDmwktp571GHezsvc4hX_sveSnr90Uc.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_okNuk5qHE4gnqDmwktp571GHezsvc4hX_sveSnr90Uc-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_okNuk5qHE4gnqDmwktp571GHezsvc4hX_sveSnr90Uc.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_okNuk5qHE4gnqDmwktp571GHezsvc4hX_sveSnr90Uc.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_P1HKMR48cyvrzJii1dAcNPwgHUPmUB4Drh_gFMHJpaw.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_P1HKMR48cyvrzJii1dAcNPwgHUPmUB4Drh_gFMHJpaw-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_P1HKMR48cyvrzJii1dAcNPwgHUPmUB4Drh_gFMHJpaw.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_P1HKMR48cyvrzJii1dAcNPwgHUPmUB4Drh_gFMHJpaw.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_QiDSjkVU0fym2CkDyktsMpCRBskfdcoCs-_fC5dVYrI.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_QiDSjkVU0fym2CkDyktsMpCRBskfdcoCs-_fC5dVYrI-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_QiDSjkVU0fym2CkDyktsMpCRBskfdcoCs-_fC5dVYrI.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_QiDSjkVU0fym2CkDyktsMpCRBskfdcoCs-_fC5dVYrI.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_qNWkT4S78lvcbNpOyP6ZOwHq5z7FBXaDS8AYrDMG4O0.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_qNWkT4S78lvcbNpOyP6ZOwHq5z7FBXaDS8AYrDMG4O0-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_qNWkT4S78lvcbNpOyP6ZOwHq5z7FBXaDS8AYrDMG4O0.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_qNWkT4S78lvcbNpOyP6ZOwHq5z7FBXaDS8AYrDMG4O0.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_TB7eT2sraNPHA-ehaIouW_1_4pDLU1wUK8mx0mEiB3s.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_TB7eT2sraNPHA-ehaIouW_1_4pDLU1wUK8mx0mEiB3s-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_TB7eT2sraNPHA-ehaIouW_1_4pDLU1wUK8mx0mEiB3s.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_TB7eT2sraNPHA-ehaIouW_1_4pDLU1wUK8mx0mEiB3s.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_u_RFO34Q9oNf_o3dWKutDrn3U-8zvr8I9AYEhgCyL7Q.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_u_RFO34Q9oNf_o3dWKutDrn3U-8zvr8I9AYEhgCyL7Q-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_u_RFO34Q9oNf_o3dWKutDrn3U-8zvr8I9AYEhgCyL7Q.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_u_RFO34Q9oNf_o3dWKutDrn3U-8zvr8I9AYEhgCyL7Q.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_x1FViOWiwVqiqxxW-tZ9ScQlBAs1RHuJGeM5cr9ajQA.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_x1FViOWiwVqiqxxW-tZ9ScQlBAs1RHuJGeM5cr9ajQA-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_x1FViOWiwVqiqxxW-tZ9ScQlBAs1RHuJGeM5cr9ajQA.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_x1FViOWiwVqiqxxW-tZ9ScQlBAs1RHuJGeM5cr9ajQA.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_Xhky92wC-X_ozHG7Hqt7XzR0QFZQLxAY0shX8k7GIgI.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_Xhky92wC-X_ozHG7Hqt7XzR0QFZQLxAY0shX8k7GIgI-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_Xhky92wC-X_ozHG7Hqt7XzR0QFZQLxAY0shX8k7GIgI.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_Xhky92wC-X_ozHG7Hqt7XzR0QFZQLxAY0shX8k7GIgI.js.gz",
-		"oF": 0
-		},
-	"/sites/default/files/js/js_ZWDxDjSWbzJ7VZL_2o1KUJp9I4d3TrwFbgzTjCoscTs.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_ZWDxDjSWbzJ7VZL_2o1KUJp9I4d3TrwFbgzTjCoscTs-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/sites/default/files/js/js_ZWDxDjSWbzJ7VZL_2o1KUJp9I4d3TrwFbgzTjCoscTs.js.gz": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/sites/default/files/js/js_ZWDxDjSWbzJ7VZL_2o1KUJp9I4d3TrwFbgzTjCoscTs.js.gz",
-		"oF": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/sites/default/files/pictures/2018-11/lyle-rohr-profile.jpg": {
 		"ft": 16384,
@@ -102647,6 +102830,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/awesome-dog.png": {
+		"ft": 32768,
+		"iS": 10548,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/awesome-dog.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/blue-bg.png": {
+		"ft": 32768,
+		"iS": 965,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/blue-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/glow-ball.png": {
+		"ft": 32768,
+		"iS": 9681,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/glow-ball.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/glow-ball_0.png": {
+		"ft": 32768,
+		"iS": 9681,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/glow-ball_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/kid-with-vr-setpng.png": {
+		"ft": 32768,
+		"iS": 9577,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/kid-with-vr-setpng.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/sites/default/files/styles/thumbnail/public/2019-01/masthead--blue.png": {
 		"ft": 32768,
 		"iS": 965,
@@ -102691,11 +102929,66 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/ms-keyboard.png": {
+		"ft": 32768,
+		"iS": 9264,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/ms-keyboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/phone-bg.png": {
+		"ft": 32768,
+		"iS": 10728,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/phone-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/phone-bg_0.png": {
+		"ft": 32768,
+		"iS": 10728,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/phone-bg_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/tahoe-partners--solutions-feature.png": {
+		"ft": 32768,
+		"iS": 9535,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/tahoe-partners--solutions-feature.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/sites/default/files/styles/thumbnail/public/2019-01/tahoe-partners__masthead--home.png": {
 		"ft": 32768,
 		"iS": 2589,
 		"oA": 0,
 		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/tahoe-partners__masthead--home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sites/default/files/styles/thumbnail/public/2019-01/tower-scaffolding.png": {
+		"ft": 32768,
+		"iS": 17584,
+		"oA": 0,
+		"oAP": "/sites/default/files/styles/thumbnail/public/2019-01/tower-scaffolding.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -103558,6 +103851,58 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/styleguide/assets/styles/partials/molecules/_block--feature-image-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_block--feature-image-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/molecules/_block--offset-cta.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_block--offset-cta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/molecules/_block--page-intro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_block--page-intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/molecules/_block--solutions-section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_block--solutions-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/styleguide/assets/styles/partials/molecules/_button--icon.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -103593,6 +103938,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/styleguide/assets/styles/partials/molecules/_global--card.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/molecules/_global--feature-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_global--feature-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -103662,6 +104020,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/styleguide/assets/styles/partials/molecules/_global--offset-section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/molecules/_global--offset-section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/styleguide/assets/styles/partials/molecules/_global--pager.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -103701,32 +104072,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/styleguide/assets/styles/partials/molecules/_page--page-intro.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/styleguide/assets/styles/partials/molecules/_page--page-intro.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/styleguide/assets/styles/partials/molecules/_template--bg.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/styleguide/assets/styles/partials/molecules/_template--bg.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/styleguide/assets/styles/partials/molecules/_work--client-roster.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -103749,6 +104094,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/styleguide/assets/styles/partials/molecules/_work--list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/organisms/_block--inline-carousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/organisms/_block--inline-carousel.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -103879,6 +104237,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/styleguide/assets/styles/partials/pages/_page--case-study.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/styleguide/assets/styles/partials/pages/_page--contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/styleguide/assets/styles/partials/pages/_page--contact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -110679,6 +111050,37 @@
 		"oAP": "/themes/README.txt",
 		"oF": 0
 		},
+	"/themes/tahoe/fonts/tahoe-icons.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/fonts/tahoe-icons.eot",
+		"oF": 0
+		},
+	"/themes/tahoe/fonts/tahoe-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/themes/tahoe/fonts/tahoe-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/themes/tahoe/fonts/tahoe-icons.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/fonts/tahoe-icons.ttf",
+		"oF": 0
+		},
+	"/themes/tahoe/fonts/tahoe-icons.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/fonts/tahoe-icons.woff",
+		"oF": 0
+		},
 	"/themes/tahoe/images/masthead--contact.png": {
 		"ft": 32768,
 		"iS": 2613277,
@@ -110756,6 +111158,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/themes/tahoe/images/tahoe-partners--solutions-bg.png": {
+		"ft": 32768,
+		"iS": 3363408,
+		"oA": 0,
+		"oAP": "/themes/tahoe/images/tahoe-partners--solutions-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/themes/tahoe/images/tahoe-partners-logo-lockup.png": {
 		"ft": 32768,
 		"iS": 3960,
@@ -110776,6 +111189,84 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/themes/tahoe/libraries/blazy/blazy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/blazy-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/themes/tahoe/libraries/blazy/blazy.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/blazy.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/themes/tahoe/libraries/blazy/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/themes/tahoe/libraries/blazy/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/themes/tahoe/libraries/blazy/example/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/example/index.html",
+		"oF": 0
+		},
+	"/themes/tahoe/libraries/blazy/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/LICENSE",
+		"oF": 0
+		},
+	"/themes/tahoe/libraries/blazy/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/themes/tahoe/libraries/blazy/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/themes/tahoe/libraries/blazy/polyfills/closest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/polyfills/closest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/themes/tahoe/libraries/blazy/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/themes/tahoe/libraries/blazy/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/themes/tahoe/libraries/slick/.gitignore": {
 		"cB": 0,
@@ -111423,6 +111914,34 @@
 		"oAP": "/themes/tahoe/templates/admin/views-ui-views-listing-table.html.twig",
 		"oF": 0
 		},
+	"/themes/tahoe/templates/block/block--bundle--blockquote.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--blockquote.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/block/block--bundle--feature-image-and-text.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--feature-image-and-text.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/block/block--bundle--featured-list.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--featured-list.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/block/block--bundle--image-carousel.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--image-carousel.html.twig",
+		"oF": 0
+		},
 	"/themes/tahoe/templates/block/block--bundle--masthead-block-default.html.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -111430,11 +111949,32 @@
 		"oAP": "/themes/tahoe/templates/block/block--bundle--masthead-block-default.html.twig",
 		"oF": 0
 		},
+	"/themes/tahoe/templates/block/block--bundle--offset-image-blocks.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--offset-image-blocks.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/block/block--bundle--offset-image-cta.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--offset-image-cta.html.twig",
+		"oF": 0
+		},
 	"/themes/tahoe/templates/block/block--bundle--page-intro-content.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/themes/tahoe/templates/block/block--bundle--page-intro-content.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/block/block--bundle--solutions-section.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/block/block--bundle--solutions-section.html.twig",
 		"oF": 0
 		},
 	"/themes/tahoe/templates/block/block--contactbanner-2.html.twig": {
@@ -111722,6 +112262,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/themes/tahoe/templates/field/field--comment.html.twig",
+		"oF": 0
+		},
+	"/themes/tahoe/templates/field/field--field-blockquote--bg-style.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/themes/tahoe/templates/field/field--field-blockquote--bg-style.html.twig",
 		"oF": 0
 		},
 	"/themes/tahoe/templates/field/field--node--created.html.twig": {

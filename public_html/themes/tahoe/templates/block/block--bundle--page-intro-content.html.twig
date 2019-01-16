@@ -1,12 +1,16 @@
-<div class="tp_page-intro" {{ attributes }}>
-    <div class="tp_page-intro__section">
-        {% block content %}
-            <h3 class="tp_page-intro__heading">
-                {{ content.field_page__intro_heading }}
-            </h3>
-            <div class="tp_page-intro__content">
-                {{ content.body }}
+<div class="tp_surface">
+    <div class="tp_surface__section">
+        <div class="tp_page-intro" {{ attributes }}>
+            <div class="tp_page-intro__section">
+                {% block content %}
+                    <h3 class="tp_page-intro__heading">
+                        {{ content.field_page__intro_heading }}
+                    </h3>
+                    <div class="tp_page-intro__content">
+                        {{ content.body }}
+                    </div>
+                {% endblock %}
             </div>
-        {% endblock %}
+        </div>
     </div>
 </div>

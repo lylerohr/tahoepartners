@@ -1,0 +1,23 @@
+.#{$pre}fit {
+    @include make-row;
+    margin-left: 0;
+    margin-right: 0;
+
+    &__image img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__content {
+        @include make-sm-column(8);
+        @include make-sm-column-offset(3);
+        background-color: transparentize(color(white), .05);
+        padding: layout(spacing--xl);
+        margin-top: layout(spacing--md);
+
+        @include respond-to(tablet) {
+            margin-top: layout(layout--sm) * -1;
+        }
+
+    }
+}

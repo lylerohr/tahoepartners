@@ -6,11 +6,13 @@
 
 
 @import "global--card";
-@import "global--heading-groups";
+@import "global--feature-list";
 @import "global--form";
+@import "global--heading-groups";
 @import "global--list";
 @import "global--media";
 @import "global--nav-menu";
+@import "global--offset-section";
 @import "global--pager";
 @import "global--tabs";
 
@@ -19,7 +21,9 @@
 @import "work--list";
 @import "work--client-roster";
 
-@import "footer--nav";
+@import "block--feature-image-text";
+@import "block--solutions-section";
+@import "block--page-intro";
+@import "block--offset-cta";
 
-@import "page--page-intro";
-@import "template--bg";
+@import "footer--nav";

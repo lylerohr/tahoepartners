@@ -59,4 +59,14 @@ $(document).ready(function() {
 });
 
 
+
+$(".tp_card--solution").click(function() {
+    if ( $(this).hasClass("shift") ) {
+        $(this).removeClass("shift");
+    } else {
+        $(this).addClass("shift");
+    }
+
+});
+
 });

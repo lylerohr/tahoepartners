@@ -17,11 +17,20 @@
         color: color(seafoam--light);
     }
 
-    &--reverse {
+    &--reverse,
+    &--Dark {
 
         .#{$pre}blockquote__quote {
             color: color(white);
         }
 
+    }
+
+    .#{$pre}rule {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: layout(spacing--sm);
+        border-color: color(seafoam--light);
     }
 }

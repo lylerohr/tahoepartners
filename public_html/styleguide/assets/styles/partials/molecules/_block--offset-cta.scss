@@ -1,0 +1,45 @@
+.tp_offset-cta {
+
+    &__row {
+        @include make-row;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    &__content {
+        background-color: color(seafoam--bright);
+        @include vertical-center;
+        padding-top: layout(layout--lg);
+        padding-bottom: layout(layout--lg);
+        padding-left: layout(spacing--2xl);
+        padding-right: layout(spacing--2xl);
+    }
+
+    &__heading {
+        @include responsive-type(fs--0, display);
+        text-transform: uppercase;
+    }
+
+    &__body {
+        @include responsive-type(fs--11, text);
+        margin-bottom: layout(spacing--lg);
+    }
+
+    &__button {
+        @extend %button--ghost;
+    }
+
+    &__image-container {
+        padding-left: 0;
+        padding-right: 0;
+        float: right;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__image img {
+        width: auto;
+        height: auto;
+    }
+}

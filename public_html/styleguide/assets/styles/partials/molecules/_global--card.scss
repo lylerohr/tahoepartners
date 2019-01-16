@@ -60,12 +60,146 @@
             @extend %rule--heading-rule-reverse;
         }
 
-        .#{$pre}card__copy {
+        .#{$pre}card__copy,
+        .#{$pre}card__long-copy {
             color: color(gray--extra-light);
         }
 
         .#{$pre}card__button {
             @extend %button--ghost-round-reverse;
         }
+    }
+
+    &--solution {
+        position: relative;
+        transition: transition(slow);
+        padding-top: layout(spacing--md);
+        padding-bottom: layout(spacing--md);
+        z-index: 1000;
+
+        &:hover {
+            cursor: pointer;
+            background-color: transparentize(color(gray--extra-light), .95);
+            transition: transition(slow);
+        }
+
+
+
+        .#{$pre}card__arrow {
+            position: absolute;
+            bottom: 0;
+            left: layout(spacing--lg) *-1;
+            color: white;
+            opacity: 0;
+            transition: transition(slow);
+
+            &-link {
+                display: block;
+                height: 1rem;
+                width: 1rem;
+                bottom: 3px;
+                position: relative;
+            }
+
+            &-link::before {
+                font-family: 'tahoe-icons';
+                content: "\e901";
+                display: block;
+                transform: rotate(0deg);
+                transition: transition(slow);
+            }
+        }
+
+
+
+        .#{$pre}card__content {
+            transition: transition(slow);
+        }
+
+        .#{$pre}card__heading {
+
+        }
+
+        .#{$pre}card__rule {
+
+        }
+
+        .#{$pre}card__copy {
+
+        }
+
+        .#{$pre}card__long-copy {
+            max-height: 0px;
+            overflow: hidden;
+            transition: transition(slow);
+            margin-bottom: 0rem;
+        }
+
+        .tp_offset--right & {
+            text-align: right;
+
+            .#{$pre}card__heading,
+            .#{$pre}card__copy,
+            .#{$pre}card__long-copy {
+                text-align: right;
+            }
+
+            .#{$pre}card__rule {
+                display: inline-block;
+            }
+
+            .#{$pre}card__arrow {
+                left: auto;
+                right: layout(spacing--lg) *-1;
+            }
+
+        }
+
+        &:hover {
+            .#{$pre}card__arrow {
+                transition: transition(slow);
+                opacity: 100;
+                z-index: 100;
+                cursor: pointer;
+            }
+        }
+
+        &.shift {
+
+            .#{$pre}card__content {
+                transition: transition(slow);
+            }
+
+            .#{$pre}card__arrow {
+                position: absolute;
+                transition: transition(slow);
+                opacity: 100;
+                z-index: 100;
+                bottom: 0;
+            }
+
+            .#{$pre}card__long-copy {
+                height: auto;
+                max-height: 1000px;
+                transition: transition(slow);
+                margin-bottom: layout(spacing--md);
+            }
+
+            .#{$pre}card__arrow {
+                transition: transition(slow);
+
+                &-link {
+                    bottom: 5px;
+                }
+
+                &-link::before {
+                    transform: rotate(-180deg);
+                    transition: transition(slow);
+                }
+            }
+        }
+
+
+
     }
 }

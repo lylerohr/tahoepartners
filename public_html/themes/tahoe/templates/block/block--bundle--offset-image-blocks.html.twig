@@ -1,0 +1,82 @@
+<div class="tp_offset-section tp_offset-section--block">
+    <div {{ attributes }}>
+        {% block content %}
+            {% for item in content.field_offset_section__left["#items"] %}
+
+                {% if item.getFieldCollectionItem().field_offset_section__direction.value == "Start" %}
+                    {% set direction = "tp_offset--start" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__direction.value == "Content Left" %}
+                    {% set direction = "tp_offset--left" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__direction.value == "Content Right" %}
+                    {% set direction = "tp_offset--right" %}
+                {% endif %}
+
+                {% if item.getFieldCollectionItem().field_offset_section__bg_color.value == "Black" %}
+                    {% set bgcolor = "--black" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Gray" %}
+                    {% set bgcolor = "--gray" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Gray Light" %}
+                    {% set bgcolor = "--gray-light" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Blue" %}
+                    {% set bgcolor = "--blue" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Blue Dark" %}
+                    {% set bgcolor = "--blue-dark" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Blue Light" %}
+                    {% set bgcolor = "--blue-light" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Seafoam" %}
+                    {% set bgcolor = "--seafoam" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Seafoam Bright" %}
+                    {% set bgcolor = "--seafoam-bright" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Seafoam Light" %}
+                    {% set bgcolor = "--seafoam-light" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Seafoam Black" %}
+                    {% set bgcolor = "--seafoam-black" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Mikes Mauve" %}
+                    {% set bgcolor = "--mauve" %}
+                {% elseif item.getFieldCollectionItem().field_offset_section__bg_color.value == "Red" %}
+                    {% set bgcolor = "--red" %}
+                {% endif %}
+
+                {% if item.getFieldCollectionItem().field_offset_section__direction.value == "Content Right" %}
+                    <div class="tp_offset tp_offset--vertical--base {{direction}}{{bgcolor}}" style="background-image: url({{file_url(item.getFieldCollectionItem().field_offset_section__bg_image.entity.fileuri)}});">
+                        <div class="tp_offset__section"><!-- row -->
+                            <div class="tp_offset__surface ">
+                                <div class="tp_offset__surface-section">
+                                    <div class="col-md-8 col-md-offset-4">
+                                        <div class="tp_card tp_card--rule">
+                                            <h3 class="tp_card__heading">{{item.getFieldCollectionItem().field_offset_section__heading.value}}</h3>
+                                            <h4 class="tp_card__subheading">{{item.getFieldCollectionItem().field_offset_section__subheading.value}}</h4>
+                                            <hr class="tp_card__rule" />
+                                            <div class="tp_card__body">
+                                                {{item.getFieldCollectionItem().field_offset_section__body.value|raw}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="tp_offset tp_offset--vertical--base {{direction}}{{bgcolor}}" style="background-image: url({{file_url(item.getFieldCollectionItem().field_offset_section__bg_image.entity.fileuri)}});">
+                        <div class="tp_offset__section"><!-- row -->
+                            <div class="tp_offset__surface ">
+                                <div class="tp_offset__surface-section">
+                                    <div class="col-md-8">
+                                        <div class="tp_card tp_card--rule">
+                                            <h3 class="tp_card__heading">{{item.getFieldCollectionItem().field_offset_section__heading.value}}</h3>
+                                            <h4 class="tp_card__subheading">{{item.getFieldCollectionItem().field_offset_section__subheading.value}}</h4>
+                                            <hr class="tp_card__rule" />
+                                            <div class="tp_card__body">
+                                                {{item.getFieldCollectionItem().field_offset_section__body.0.value|raw}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endblock %}
+    </div>
+</div>

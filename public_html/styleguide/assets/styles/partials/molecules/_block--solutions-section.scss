@@ -1,0 +1,23 @@
+.tp_solutions-block {
+    margin-top: layout(layout--xl) * -1;
+    background-image: url(/themes/tahoe/images/tahoe-partners--solutions-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: layout(layout--md);
+
+    &__subheading {
+        color: color(gray--extra-light);
+        text-align: center;
+        text-transform: uppercase;
+        @include responsive-type(fs--5, display);
+        position: relative;
+        top: 1rem;
+    }
+
+    &__heading {
+        color: color(seafoam--light);
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

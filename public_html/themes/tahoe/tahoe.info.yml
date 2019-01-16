@@ -6,6 +6,7 @@ libraries:
     - tahoe/global-css
     - tahoe/global-scripts
     - tahoe/slick
+    - tahoe/blazy
 
 regions:
     header: 'Header'

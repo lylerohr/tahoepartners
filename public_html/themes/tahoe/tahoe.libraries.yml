@@ -10,5 +10,6 @@ global-scripts:
     js:
         scripts/scripts-min.js: {}
         libraries/slick/slick/slick.min.js: {}
+        libraries/blazy/blazy.min.js: {}
     dependencies:
         - core/jquery
