@@ -9,16 +9,35 @@
 
     &__content {
         background-color: color(seafoam--bright);
-        @include vertical-center;
         padding-top: layout(layout--lg);
         padding-bottom: layout(layout--lg);
-        padding-left: layout(spacing--2xl);
-        padding-right: layout(spacing--2xl);
+
+        @include respond-to(tablet) {
+            @include vertical-center;
+            padding-left: layout(spacing--2xl);
+            padding-right: layout(spacing--2xl);
+        }
     }
 
     &__heading {
-        @include responsive-type(fs--0, display);
+        font-size: rem(font-size(fs--1));
         text-transform: uppercase;
+
+        @include respond-to(mobile) {
+            font-size: rem(font-size(fs--0));
+        }
+
+        @include respond-to(tablet) {
+            font-size: rem(font-size(fs--3));
+        }
+
+        @include respond-to(desktop) {
+            font-size: rem(font-size(fs--1));
+        }
+
+        @include respond-to(desktop-large) {
+            font-size: rem(font-size(fs--0));
+        }
     }
 
     &__body {
@@ -31,15 +50,24 @@
     }
 
     &__image-container {
-        padding-left: 0;
-        padding-right: 0;
-        float: right;
+        margin-top: layout(layout--md) * -1;
         position: relative;
         overflow: hidden;
+
+        @include respond-to(tablet) {
+            margin-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+            float: right;
+        }
     }
 
     &__image img {
-        width: auto;
+        width: 100%;
         height: auto;
+
+        @include respond-to(tablet) {
+            width: auto;
+        }
     }
 }

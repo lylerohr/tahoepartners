@@ -1,0 +1,69 @@
+.tp_contact-info {
+
+    &__address-content {
+        position: relative;
+        z-index: 1000;
+    }
+
+    &__bg-image {
+        position: absolute;
+        left: -5rem;
+        top: 2rem;
+    }
+
+    &__heading {
+        @include responsive-type(fs--4, display);
+        font-weight: 100;
+        color: color(seafoam--bright);
+        margin-bottom: layout(spacing--sm);
+    }
+
+    &__address {
+        @include responsive-type(fs--4, display);
+        font-family: font-family(display);
+        color: color(gray--extra-light);
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    &__directions {
+        @extend %button--ghost-reverse;
+        margin-top: layout(spacing--xl);
+    }
+
+    &__phone {
+        overflow: hidden;
+        @include respond-to(desktop) {
+            margin-top: layout(layout--xl) * -2;
+        }
+    }
+
+    &__bg-image-phone {
+        position: absolute;
+        right: -1rem;
+        top: -.5rem;
+        z-index: 1;
+
+        @include respond-to(desktop) {
+            top: 1rem;
+            right: -3rem;
+        }
+    }
+
+    &__phone-heading {
+        position: relative;
+        @include responsive-type(fs--4, display);
+        font-weight: 100;
+        margin-bottom: layout(spacing--sm);
+        z-index: 2;
+    }
+
+    &__phone-number {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__call-link {
+        text-decoration: none;
+    }
+}

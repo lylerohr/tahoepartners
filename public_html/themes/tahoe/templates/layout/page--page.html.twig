@@ -12,13 +12,14 @@
             </div>
         </div>
     </div>
+    
     <div class="tp_template" role="main">
 
-    {% if page.content %}
-        <div class="tp_template__section">
-            {{ page.content }}
-        </div>
-    {% endif %}
+        {% if page.content %}
+            <div class="tp_template__section">
+                {{ page.content }}
+            </div>
+        {% endif %}
 
         <div class="tp_template__section tp_template__section--footer-banner">
             {% if page.footer_banner %}
@@ -36,6 +37,7 @@
               </div>
             {% endif %}
         </div>
+
     </div>
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 </div>

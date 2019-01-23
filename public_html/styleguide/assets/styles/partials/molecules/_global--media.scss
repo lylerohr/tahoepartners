@@ -55,27 +55,56 @@
 
     &--work {
         position: relative;
-        margin-bottom: layout(layout--md);
-        padding-bottom: .5rem;
+
+        @include respond-to(desktop) {
+            margin-bottom: layout(layout--md);
+            padding-bottom: .5rem;
+        }
+
 
         .tp-media--interest {
-            position: relative;
-            min-height: 450px;
-            max-height: 450px;
-            width: 58.3333%;
-            max-width: 58.3333%;
+            box-shadow: 0px 2px 12px 0px rgba(37, 40, 42, 0.15);
+            background-color: #00dbb6;
+            transition: 300ms ease-in-out;
+            max-height: 250px;
             overflow: hidden;
-            box-shadow: shadow(inactive, drop--inactive) color(drop--inactive);
-            background-color: color(seafoam--light);
-            transition: transition(slow);
+            display: block;
+            float: none;
+            margin-right: 0;
+            max-width: 100%;
+            width: 100%;
+            position: relative;
 
             img {
+                min-width: 125%;
+                height: auto;
+                position: relative;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%,-40%);
+            }
+
+            @include respond-to(desktop) {
+                position: relative;
+                min-height: 450px;
+                max-height: 450px;
+                width: 58.3333%;
+                max-width: 58.3333%;
+                overflow: hidden;
+                box-shadow: shadow(inactive, drop--inactive) color(drop--inactive);
+                background-color: color(seafoam--light);
                 transition: transition(slow);
-                min-height: 115%;
-                min-width: 115%;
-                @include hv-center;
-                z-index: 2;
-                filter: brightness(125%);
+                float: left;
+                margin-right: layout(spacing--lg);
+
+                img {
+                    transition: transition(slow);
+                    min-height: 115%;
+                    min-width: 115%;
+                    @include hv-center;
+                    z-index: 2;
+                    filter: brightness(125%);
+                }
             }
         }
 
@@ -85,7 +114,8 @@
             width: 100%;
             height: 100%;
             background-color: color(seafoam--bright);
-
+            top: 0;
+            left: 0;
             opacity: .1;
             z-index: 3;
             transition: transition(slow);
@@ -93,17 +123,42 @@
 
         .tp-media--body {
             position: relative;
-            padding-top: layout(layout--lg);
-            transition: transition(slow);
+            width: 85%;
+            background-color: transparentize(color(white), .05);
+            padding: layout(spacing--lg) layout(spacing--lg) layout(spacing--3xl) layout(spacing--lg);
+            z-index: 100;
+            margin-top: layout(spacing--lg) * -1;
+            margin-left: 7.5%;
+
+            @include respond-to(tablet) {
+                margin-left: 12%;
+            }
+
+            @include respond-to(desktop) {
+                width: inherit;
+                position: relative;
+                padding-top: layout(layout--lg);
+                transition: transition(slow);
+                margin-right: 0;
+                background-color: transparent;
+                margin-left: 0;
+                margin-top: 0;
+            }
+
         }
 
         .tp-media--view-link {
-            position: relative;
-            top: layout(spacing--2xl);
-            z-index: -1;
-            opacity: 0;
-            margin-left: -3.5rem;
-            transition: 150ms ease-out;
+            position: absolute;
+            bottom: 1rem;
+
+            @include respond-to(desktop) {
+                position: relative;
+                top: layout(spacing--2xl);
+                z-index: -1;
+                opacity: 0;
+                margin-left: -3.5rem;
+                transition: 150ms ease-out;
+            }
 
             a {
                 @extend %button--ghost-round;

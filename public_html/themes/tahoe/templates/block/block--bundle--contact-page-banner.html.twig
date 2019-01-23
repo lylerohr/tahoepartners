@@ -1,0 +1,49 @@
+<div class="tp_contact-info">
+    <div {{ attributes }}>
+        <div class="tp_offset-section">
+            {% block content %}
+
+                <div class="tp_offset tp_offset--left--blue"> <!-- f container -->
+                    <div class="tp_offset__section"><!-- row -->
+                        <div class="tp_offset__surface ">
+                            <div class="tp_offset__surface-section">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <div class="tp_contact-info__address-content">
+                                    {% for item in content.field_contact_info__address['#items'] %}
+                                        <img class="tp_contact-info__bg-image" src="{{ file_url(item.getFieldCollectionItem().field_contact_info__bg_image.entity.fileuri) }}" alt="{{item.getFieldCollectionItem().field_contact_info__bg_image.alt}}">
+                                        <h3 class="tp_contact-info__heading">{{item.getFieldCollectionItem().field_contact_info__heading.value}}</h3>
+                                        <p class="tp_contact-info__address">{{item.getFieldCollectionItem().field_contact_info__address_1.value}}</p>
+                                        <p class="tp_contact-info__address">{{item.getFieldCollectionItem().field_contact_info__address_2.value}}</p>
+                                        <p class="tp_contact-info__address">{{item.getFieldCollectionItem().field_contact_info__address_3.value}}</p>
+                                        <a class="tp_contact-info__directions" href="{{item.getFieldCollectionItem().field_contact_info__dir_link.0.url}}">
+                                            {{item.getFieldCollectionItem().field_contact_info__dir_link.0.title}}
+                                        </a>
+                                    {% endfor %}
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tp_offset tp_offset--right--seafoam-bright--6 tp_contact-info__phone"> <!-- f container -->
+                    <div class="tp_offset__section"><!-- row -->
+                        <div class="tp_offset__surface">
+                            <div class="tp_offset__surface-section">
+                                <div class="col-md-4 col-md-offset-7">
+                                {% for items in content.field_contact_info__phone['#items'] %}
+                                    <img class="tp_contact-info__bg-image-phone" src="{{ file_url(items.getFieldCollectionItem().field_contact_info__bg_image_p.entity.fileuri) }}" alt="{{ item.getFieldCollectionItem().field_contact_info__bg_image_p.alt }}">
+                                    <h3 class="tp_contact-info__phone-heading">{{items.getFieldCollectionItem().field_contact_info__phone_head.value}}</h3>
+                                    <a class="tp_contact-info__call-link" href="tel:312.491.3000"><h3 class="tp_contact-info__phone-number">{{items.getFieldCollectionItem().field_contact_info__phone.value}}</h3></a>
+                                {% endfor %}
+                                </div>
+                            </div>
+                        </div> <!-- eo surface -->
+                    </div> <!-- eo row section -->
+                </div> <!-- eo row -->
+
+            {% endblock %}
+        </div>
+    </div>
+</div>

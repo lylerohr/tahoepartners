@@ -13,11 +13,26 @@
         @include responsive-type(fs--5, display);
         position: relative;
         top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: layout(spacing--lg);
+
+        @include respond-to(desktop) {
+            margin-bottom: layout(spacing--sm);
+        }
     }
 
     &__heading {
         color: color(seafoam--light);
         text-align: center;
         text-transform: uppercase;
+        font-size: rem(font-size(fs--2));
+        line-height: 1;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        @include respond-to(desktop) {
+            font-size: rem(font-size(fs--0));
+        }
     }
 }

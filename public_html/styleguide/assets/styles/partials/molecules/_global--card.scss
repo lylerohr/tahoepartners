@@ -86,12 +86,17 @@
 
 
         .#{$pre}card__arrow {
-            position: absolute;
+            opacity: 100;
             bottom: 0;
             left: layout(spacing--lg) *-1;
             color: white;
-            opacity: 0;
+
             transition: transition(slow);
+
+            @include respond-to(desktop) {
+                position: absolute;
+                opacity: 0;
+            }
 
             &-link {
                 display: block;
@@ -171,11 +176,15 @@
             }
 
             .#{$pre}card__arrow {
-                position: absolute;
-                transition: transition(slow);
-                opacity: 100;
-                z-index: 100;
-                bottom: 0;
+
+                @include respond-to(desktop) {
+                    position: absolute;
+                    transition: transition(slow);
+                    opacity: 100;
+                    z-index: 100;
+                    bottom: 0;
+                }
+
             }
 
             .#{$pre}card__long-copy {

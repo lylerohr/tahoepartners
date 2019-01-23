@@ -1,6 +1,27 @@
 .tp_page--contact {
 
-    input[type="text"] {
+    #block-tahoe-content {
+        max-width: 100%;
+        margin: 0 auto;
+
+        @include respond-to(tablet) {
+            max-width: 85%;
+        }
+
+        @include respond-to(desktop) {
+            max-width: 65%;
+        }
+    }
+
+
+    label {
+        font-family: font-family(display);
+		@include responsive-type(fs--13, text);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
         @extend %input;
     }
 
@@ -10,9 +31,12 @@
 
     input#edit-submit {
         @extend %button--default;
+        float: right;
+        margin-left: layout(spacing--sm);
     }
 
     input#edit-preview {
         @extend %button--link;
+        float: right;
     }
 }

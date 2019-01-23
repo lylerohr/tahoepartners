@@ -49,17 +49,55 @@
             @include hv-center;
             z-index: 2;
             max-width: 650px;
+            width: 290px;
+
+            @include respond-to(mobile) {
+                width: 380px;
+            }
+
+            @include respond-to(tablet) {
+                width: 420px;
+            }
+
+            @include respond-to(desktop) {
+                width: 590px;
+            }
         }
 
         .#{$pre}masthead__subhead {
-            @include responsive-type(fs--9, display);
             font-family: font-family(text);
             font-weight: 100;
+            font-size: rem(font-size(fs--11));
+            margin-bottom: layout(spacing--xs);
+
+            @include respond-to(mobile) {
+                font-size: rem(font-size(fs--11));
+            }
+
+            @include respond-to(tablet) {
+                font-size: rem(font-size(fs--10));
+            }
+
+            @include respond-to(desktop) {
+                font-size: rem(font-size(fs--9));
+            }
         }
 
         .#{$pre}masthead__tripple-headline {
-            @include responsive-type(fs--1, display);
+            font-size: rem(font-size(fs--7));
             color: color(gray--extra-light);
+
+            @include respond-to(mobile) {
+                font-size: rem(font-size(fs--5));
+            }
+
+            @include respond-to(tablet) {
+                font-size: rem(font-size(fs--4));
+            }
+
+            @include respond-to(desktop) {
+                font-size: rem(font-size(fs--2));
+            }
         }
 
         .#{$pre}masthead__welcome-message {
@@ -71,6 +109,20 @@
             padding-right: layout(spacing--md);
             padding-bottom: layout(spacing--xs);
             border-bottom: border(thin, black);
+
+            width: 290px;
+
+            @include respond-to(mobile) {
+                width: auto;
+            }
+
+            @include respond-to(tablet) {
+                //width: 420px;
+            }
+
+            @include respond-to(desktop) {
+                //width: 590px;
+            }
         }
 
         .#{$pre}masthead__scroll-down-button {

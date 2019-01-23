@@ -3,6 +3,11 @@
     background-image: url(/themes/tahoe/images/tahoe-footer-banner-bg.png);
     background-size: cover;
     background-position: center center;
+    text-align: center;
+
+    @include respond-to(tablet) {
+        text-align: left;
+    }
 
     &__heading {
         @include responsive-type(fs--1, display);
@@ -15,9 +20,17 @@
         @include responsive-type(fs--6, display);
         color: color(gray--extra-light);
         margin-bottom: layout(spacing--lg);
+        text-align: center;
+        margin-top: layout(spacing--md);
+
+        @include respond-to(tablet) {
+            text-align: left;
+            margin-top: layout(spacing--md) * -1;
+        }
     }
 
     &__button {
+        display: inline-block;
         @extend %button;
     }
 }

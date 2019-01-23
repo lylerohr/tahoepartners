@@ -9,6 +9,8 @@
     z-index: z(sticky-nav);
     margin-bottom: -4rem;
     transition: transition(base);
+    overflow: hidden;
+
 
     &.scrolled {
         background-color: transparentize(color(black), .1);
@@ -49,5 +51,55 @@
         @include vertical-center;
         right: layout(spacing--xl);
         margin-top: layout(spacing--2xs);
+    }
+
+    &.menu-active {
+        position: fixed;
+        background-color: transparent;
+        transition: transition(slow);
+        overflow: visible;
+
+        .#{$pre}header__right {
+            left: 0;
+            top: 0;
+            right: auto;
+            transform: none;
+            margin-top: 0;
+            transition: transition(slow);
+            width: 100vw;
+            height: 100vh;
+            background-color: transparentize(color(black), .1);
+            transition: transition(slow);
+        }
+
+        .#{$pre}nav-menu {
+            left: 0;
+            top: 0;
+            width: 100vw;
+            padding-top: 4rem;
+            opacity: 1;
+            transition: 300ms ease-in-out;
+            transition: opacity 300ms;
+            transition-delay: opacity 300ms;
+
+            &__item {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            &__item a {
+                font-size: 2rem;
+                color: white;
+            }
+
+            &__bars {
+                display: none;
+            }
+
+            &__close {
+                display: block;
+            }
+        }
     }
 }

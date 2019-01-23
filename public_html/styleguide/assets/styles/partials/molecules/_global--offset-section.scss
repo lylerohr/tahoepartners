@@ -243,7 +243,7 @@ $col11: 90.6666%;
 }
 
 
-
+// Offset Section Block
 .tp_offset--start,
 .tp_offset--left {
     background-size: cover;
@@ -257,7 +257,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -294,7 +298,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -331,7 +339,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -368,7 +380,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -405,7 +421,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -442,7 +462,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -478,7 +502,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -515,7 +543,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -552,7 +584,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -589,7 +625,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -626,7 +666,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -663,7 +707,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -705,7 +753,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -742,7 +794,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -779,7 +835,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -816,7 +876,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -853,7 +917,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -890,7 +958,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -927,7 +999,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -964,7 +1040,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -990,6 +1070,23 @@ $col11: 90.6666%;
                     background-image: linear-gradient(-90deg, color(seafoam--bright) $col9, transparent 0%);
                 }
             }
+
+
+        }
+
+        &--6 {
+            .tp_offset__section {
+                background-color: color(seafoam--bright);
+
+                @include respond-to(desktop) {
+                    background-color: color(clear);
+                    background-image: linear-gradient(-90deg, color(seafoam--bright) 35%, transparent 0%);
+
+                    .tp_offset__surface {
+                        background-image: linear-gradient(-90deg, color(seafoam--bright) $col6, transparent 0%);
+                    }
+                }
+            }
         }
     }
 
@@ -1001,7 +1098,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -1038,7 +1139,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -1075,7 +1180,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {
@@ -1112,7 +1221,11 @@ $col11: 90.6666%;
             .tp_card__heading {
                 color: color(white);
                 text-transform: uppercase;
-                @include responsive-type(fs--0, display);
+                font-size: rem(font-size(fs--3));
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--0));
+                }
             }
 
             .tp_card__subheading {

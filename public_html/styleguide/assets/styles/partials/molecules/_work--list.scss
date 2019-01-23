@@ -2,6 +2,8 @@
 
     .tp-media--work {
         transition: transition(slow);
+        margin-bottom: layout(layout--md);
+
 
         &:hover {
             .tp-media--interest {
@@ -21,62 +23,103 @@
     }
 
     .tp-media--work:nth-child(odd) {
-        @extend .tp-media--rtl;
         z-index: 1;
 
-        .tp-media--body {
-            position: relative;
-            transition: transition(slow);
-            right: 0;
-        }
 
-        .tp-media--teaser-text {
-            padding-left: 4rem;
-        }
 
-        &:hover {
+        @include respond-to(desktop) {
+            margin-bottom: layout(layout--md) * -1;
+
+            .tp-media--interest {
+                float: right;
+                margin-right: 0;
+                margin-left: layout(spacing--lg);
+            }
+
             .tp-media--body {
-                position: relative;
-                right: 4rem;
-                transition: transition(slow);
+                padding-right: layout(spacing--md);
+                padding-top: layout(layout--xs);
+                text-align: right;
             }
 
             .tp-media--view-link {
-                display: inline-block;
-                opacity: 1;
-                transition: 350ms ease-in;
-                z-index: 1;
+                float: right;
+                margin-right: -3.5rem;
+                transition: 150ms ease-out;
             }
+
+            .tp-media--client-logo {
+                padding-top: layout(spacing--lg);
+                display: inline-block;
+                @include clearfix;
+            }
+
+            .tp-media--rule {
+                display: inline-block;
+            }
+
+            .tp-media--teaser-text {
+                text-align: right;
+            }
+
+            .tp-media--body {
+                position: relative;
+                transition: transition(slow);
+                right: 0;
+            }
+
+            .tp-media--teaser-text {
+                padding-left: 4rem;
+            }
+
+            &:hover {
+                .tp-media--body {
+                    position: relative;
+                    right: 4rem;
+                    transition: transition(slow);
+                }
+
+                .tp-media--view-link {
+                    display: inline-block;
+                    opacity: 1;
+                    transition: 350ms ease-in;
+                    z-index: 1;
+                }
+            }
+
         }
     }
 
     .tp-media--work:nth-child(even) {
         z-index: 2;
 
-        .tp-media--body {
-            left: 0;
-            position: relative;
-            transition: transition(slow);
-        }
 
-        .tp-media--teaser-text {
-            padding-right: 4rem;
-        }
 
-        &:hover {
+        @include respond-to(desktop) {
             .tp-media--body {
+                left: 0;
                 position: relative;
-                left: 4rem;
                 transition: transition(slow);
             }
 
-            .tp-media--view-link {
-                display: inline-block;
-                opacity: 1;
-                transition: 350ms ease-in;
-                z-index: 1;
+            .tp-media--teaser-text {
+                padding-right: 4rem;
+            }
+
+            &:hover {
+                .tp-media--body {
+                    position: relative;
+                    left: 4rem;
+                    transition: transition(slow);
+                }
+
+                .tp-media--view-link {
+                    display: inline-block;
+                    opacity: 1;
+                    transition: 350ms ease-in;
+                    z-index: 1;
+                }
             }
         }
     }
-
 }

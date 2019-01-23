@@ -21,6 +21,12 @@
     }
 
     &__project-description {
+        margin-bottom: layout(layout--xs);
+
+        @include respond-to(tablet) {
+            margin-bottom: 0;
+        }
+
         p {
             @extend %text;
         }
@@ -58,6 +64,12 @@
         position: relative;
         z-index: 3;
         padding-bottom: 0 !important;
+        margin-top: layout(layout--xs);
+
+        @include respond-to(tablet) {
+            margin-top: layout(layout--md);
+        }
+
 
         .#{$pre}case-study__slick {
 

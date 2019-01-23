@@ -3,10 +3,24 @@
     padding: 0 layout(spacing--md);
 
     &__quote {
-        @include responsive-type(fs--5, display);
         font-family: font-family(text);
         color: color(black);
         margin-bottom: layout(spacing--lg);
+        line-height: lh(display);
+        font-size: rem(font-size(fs--10));
+
+        @include respond-to(mobile) {
+            font-size: rem(font-size(fs--8));
+        }
+
+        @include respond-to(tablet) {
+            font-size: rem(font-size(fs--7));
+        }
+
+        @include respond-to(desktop) {
+            font-size: rem(font-size(fs--5));
+        }
+
     }
 
     &__byline {

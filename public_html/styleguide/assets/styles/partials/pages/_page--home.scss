@@ -26,18 +26,36 @@
         .tp_card {
 
             &__supersub {
-                @include responsive-type(fs--3, display);
+                font-size: rem(font-size(fs--7));
                 color: color(gray--light);
                 text-transform: uppercase;
                 position: relative;
-                top: 1rem;
+                top: .5rem;
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--4));
+                    top: .75rem;
+                }
+
+                @include respond-to(desktop) {
+                    font-size: rem(font-size(fs--3));
+                    top: 1rem;
+                }
             }
 
             &__superheading {
-                @include responsive-type(fs--1, display);
+                font-size: rem(font-size(fs--6));
                 color: color(gray--extra-light);
                 text-transform: uppercase;
                 margin-bottom: layout(spacing--xs);
+
+                @include respond-to(tablet) {
+                    font-size: rem(font-size(fs--3));
+                }
+
+                @include respond-to(desktop) {
+                    font-size: rem(font-size(fs--2));
+                }
             }
 
             &__heading {
@@ -46,7 +64,7 @@
             }
 
             &__copy {
-                @include responsive-type(fs--9, text);
+                @include responsive-type(fs--10, text);
             }
         }
     }
@@ -58,6 +76,10 @@
         background-position: left center;
         background-repeat: no-repeat;
         z-index: 1;
+
+        @include respond-to(tablet) {
+            padding-bottom: layout(layout--md) !important;
+        }
     }
 
     &__bottom-content {

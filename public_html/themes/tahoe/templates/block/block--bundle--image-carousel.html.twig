@@ -1,9 +1,53 @@
-<div class="tp_surface">
-    <div class="tp_surface__section">
-        <div {{ attributes }}>
-            {% block content %}
-                The Carousel will be here. {{ content }}
-            {% endblock %}
+<div class="tp_image-carousel">
+    <div {{ attributes }}>
+        <div class="tp_offset-section">
+            <div class="tp_offset tp_offset--left--blue"> <!-- f container -->
+                <div class="tp_offset__section"><!-- row -->
+                    <div class="tp_offset__surface ">
+                        <div class="tp_offset__surface-section">
+
+                            {% block content %}
+
+
+                            <div class="tp_image-carousel__heading-group">
+                                <div class="col-md-9 col-lg-7">
+                                    <img class="tp_image-carousel__heading-image" src="sites/default/files/2019-01/triangle-logo-icon_0.png" alt="{{ content.field_carousel__head_bg_image.entity.alt }}">
+                                    <h3 class="tp_image-carousel__heading">{{content.field_carousel__heading}}</h3>
+                                    <h5 class="tp_image-carousel__subheading">{{content.field_carousel__subheading}}</h5>
+                                </div>
+                            </div>
+
+                            <div class="tp_image-carousel__body">
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="tp_image-carousel__body-copy">{{content.field_carousel__body_copy.0|raw}}</div>
+                                </div>
+                            </div>
+
+
+
+
+                            {% endblock %}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="tp_image-carousel__carousel">
+            <div class="tp_image-carousel__slick">
+
+            {% for item in content.field_carousel__image_coll["#items"] %}
+                <div>
+                    <div class="tp_image-carousel__slide">
+                        <img class="tp_image-carousel__image" src="{{ file_url(item.getFieldCollectionItem().field_carousel__image.entity.fileuri) }} " alt="{{ item.getFieldCollectionItem().field_carousel__image.alt }}">
+                        <p class="tp_image-carousel__image-caption">{{ item.getFieldCollectionItem().field_carousel__image_caption.value }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+
+            </div>
+            <a class="tp_image-carousel__arrow"></a>
+        </div>
+
     </div>
 </div>

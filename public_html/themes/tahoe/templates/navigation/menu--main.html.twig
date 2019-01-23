@@ -10,8 +10,13 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
+    <a class="tp_nav-menu__close">
+        <span class="tp_nav-menu__close-bar--1"></span>
+        <span class="tp_nav-menu__close-bar--2"></span>
+    </a>
       <ul class="tp_nav-menu" {{ attributes }}>
     {% else %}
+
       <ul>
     {% endif %}
     {% for item in items %}
@@ -23,5 +28,10 @@
       </li>
     {% endfor %}
     </ul>
+    <div class="tp_nav-menu__bars">
+        <span class="tp_nav-menu__bar"></span>
+        <span class="tp_nav-menu__bar"></span>
+        <span class="tp_nav-menu__bar"></span>
+    </div>
   {% endif %}
 {% endmacro %}
